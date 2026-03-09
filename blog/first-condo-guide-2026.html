@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คู่มือซื้อคอนโดครั้งแรก 2026 | First Condo Buying Guide 2026 - RamSingh Property Guide</title>
+    <meta name="description" content="คู่มือฉบับสมบูรณ์สำหรับผู้ซื้อคอนโดครั้งแรก พร้อมเคล็ดลับจาก Pa RamSingh">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --gold: #C9A84C;
+            --gold-light: #E2CC8B;
+            --gold-muted: #A68B3C;
+            --dark: #1C1C1C;
+            --darker: #121212;
+            --charcoal: #2A2A2A;
+            --cream: #F5F0E8;
+            --white: #FAFAF8;
+            --text: #D4D0C8;
+            --text-muted: #8A8578;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans Thai', sans-serif;
+            background: linear-gradient(135deg, var(--darker) 0%, var(--dark) 100%);
+            color: var(--text);
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        /* ==================== NAVIGATION ==================== */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(18, 18, 18, 0.92);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.08);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav-logo picture img {
+            max-height: 36px;
+            display: block;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 3rem;
+            list-style: none;
+            flex: 1;
+        }
+
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .nav-lang {
+            display: flex;
+            gap: 0.5rem;
+            margin-left: auto;
+        }
+
+        .nav-lang button {
+            background: transparent;
+            border: 1px solid var(--gold-muted);
+            color: var(--text-muted);
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-lang button.active {
+            background: var(--gold);
+            color: var(--darker);
+            border-color: var(--gold);
+        }
+
+        .nav-lang button:hover:not(.active) {
+            border-color: var(--gold);
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 0.75rem 1rem;
+            }
+
+            .nav-container {
+                gap: 1rem;
+            }
+
+            .nav-links {
+                gap: 1.5rem;
+            }
+
+            .nav-links a {
+                font-size: 0.85rem;
+            }
+
+            .nav-lang {
+                margin-left: 0;
+            }
+
+            .nav-lang button {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.75rem;
+            }
+        }
+
+        /* ==================== CONTENT SPACING ==================== */
+        main {
+            padding-top: 80px;
+        }
+
+        /* ==================== HERO SECTION ==================== */
+        .article-hero {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(201, 168, 76, 0.05) 0%, rgba(201, 168, 76, 0.02) 100%);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+        }
+
+        .article-category {
+            display: inline-block;
+            color: var(--gold-light);
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .article-hero h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.5rem;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .article-hero .article-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .author-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 2px solid var(--gold);
+            object-fit: cover;
+        }
+
+        .article-meta-text {
+            text-align: left;
+        }
+
+        .article-meta-author {
+            font-weight: 600;
+            color: var(--gold-light);
+            font-size: 0.95rem;
+        }
+
+        .article-meta-date {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 768px) {
+            .article-hero {
+                padding: 2.5rem 1.5rem;
+            }
+
+            .article-hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .article-hero .article-subtitle {
+                font-size: 1rem;
+            }
+        }
+
+        /* ==================== ARTICLE BODY ==================== */
+        .article-body {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .article-body h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2rem;
+            color: var(--gold);
+            margin: 3rem 0 1.5rem 0;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid var(--gold-muted);
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        .article-body h2:first-child {
+            margin-top: 0;
+        }
+
+        .article-body h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            color: var(--gold-light);
+            margin: 1.5rem 0 1rem 0;
+            font-weight: 600;
+        }
+
+        .article-body p {
+            margin-bottom: 1.5rem;
+            color: var(--text);
+            line-height: 1.9;
+        }
+
+        .article-body ul {
+            list-style: none;
+            margin: 1.5rem 0;
+            padding: 0;
+        }
+
+        .article-body li {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text);
+            line-height: 1.8;
+        }
+
+        .article-body li:before {
+            content: "›";
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        /* ==================== TIP BOX ==================== */
+        .tip-box {
+            background: rgba(201, 168, 76, 0.08);
+            border-left: 4px solid var(--gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 2px;
+        }
+
+        .tip-box strong {
+            color: var(--gold-light);
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+
+        .tip-box p {
+            margin: 0.5rem 0 0 0;
+            color: var(--text);
+        }
+
+        /* ==================== COST TABLE ==================== */
+        .cost-table {
+            width: 100%;
+            margin: 2rem 0;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .cost-table th {
+            background: var(--gold);
+            color: var(--darker);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .cost-table td {
+            padding: 1rem;
+            border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+            color: var(--text);
+        }
+
+        .cost-table tr:hover {
+            background: rgba(201, 168, 76, 0.04);
+        }
+
+        /* ==================== CTA SECTION ==================== */
+        .cta-section {
+            background: linear-gradient(135deg, rgba(201, 168, 76, 0.1) 0%, rgba(201, 168, 76, 0.05) 100%);
+            border: 1px solid rgba(201, 168, 76, 0.2);
+            padding: 3rem 2rem;
+            text-align: center;
+            margin: 4rem 0 2rem 0;
+            border-radius: 2px;
+        }
+
+        .cta-section h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8rem;
+            color: var(--gold-light);
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--darker);
+            padding: 0.75rem 2.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: 2px solid var(--gold);
+            border-radius: 2px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+        }
+
+        .cta-btn:hover {
+            background: transparent;
+            color: var(--gold);
+        }
+
+        /* ==================== BACK LINK ==================== */
+        .back-link {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .back-link a {
+            color: var(--gold-light);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .back-link a:hover {
+            color: var(--gold);
+            text-decoration: underline;
+        }
+
+        /* ==================== FOOTER ==================== */
+        footer {
+            background: var(--darker);
+            border-top: 1px solid rgba(201, 168, 76, 0.1);
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-logo {
+            margin-bottom: 2rem;
+        }
+
+        .footer-logo picture img {
+            max-height: 32px;
+            display: block;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            color: var(--gold-light);
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--gold);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(201, 168, 76, 0.1);
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-disclaimer {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            max-width: 500px;
+            line-height: 1.6;
+        }
+
+        .footer-copyright {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            .footer-bottom {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        /* ==================== RESPONSIVE ==================== */
+        @media (max-width: 768px) {
+            .article-body {
+                padding: 2rem 1.5rem;
+            }
+
+            .article-body h2 {
+                font-size: 1.6rem;
+            }
+
+            .article-body h3 {
+                font-size: 1.3rem;
+            }
+
+            .cta-section {
+                padding: 2rem 1.5rem;
+            }
+
+            .cta-section h3 {
+                font-size: 1.5rem;
+            }
+
+            .cost-table {
+                font-size: 0.85rem;
+            }
+
+            .cost-table th,
+            .cost-table td {
+                padding: 0.75rem;
+            }
+
+            .tip-box {
+                padding: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <picture>
+                    <source srcset="../assets/img/logo/logo-horizontal-dark.webp" type="image/webp">
+                    <img src="../assets/img/logo/logo-horizontal-dark.png" alt="RamSingh Property Guide" style="height:36px">
+                </picture>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="../index.html" data-th="หน้าแรก" data-en="Home">หน้าแรก</a></li>
+                <li><a href="../index.html" data-th="บทความ" data-en="Journal">บทความ</a></li>
+                <li><a href="../index.html#services" data-th="บริการ" data-en="Services">บริการ</a></li>
+                <li><a href="../index.html#contact" data-th="ติดต่อ" data-en="Contact">ติดต่อ</a></li>
+            </ul>
+
+            <div class="nav-lang">
+                <button class="lang-btn active" onclick="setLang('th')" data-lang="th">TH</button>
+                <button class="lang-btn" onclick="setLang('en')" data-lang="en">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ==================== ARTICLE HERO ==================== -->
+        <section class="article-hero">
+            <div class="article-category" data-th="🏠 คู่มือซื้อบ้าน" data-en="🏠 Buying Guide">🏠 คู่มือซื้อบ้าน</div>
+            <h1 data-th="คู่มือซื้อคอนโดครั้งแรก 2026" data-en="First Condo Buying Guide 2026">คู่มือซื้อคอนโดครั้งแรก 2026</h1>
+            <p class="article-subtitle" data-th="ครบครันทั้งหมดสำหรับผู้ซื้อคอนโดครั้งแรก พร้อมเคล็ดลับจาก Pa RamSingh" data-en="Complete guide for first-time condo buyers with insider tips from Pa RamSingh">ครบครันทั้งหมดสำหรับผู้ซื้อคอนโดครั้งแรก พร้อมเคล็ดลับจาก Pa RamSingh</p>
+
+            <div class="article-meta">
+                <img src="../assets/img/character/suit/ramsingh-avatar.webp" alt="Pa RamSingh" class="author-avatar">
+                <div class="article-meta-text">
+                    <div class="article-meta-author" data-th="โดย ป๋ารามซิงห์ · RamSingh Property Guide" data-en="By Pa RamSingh · RamSingh Property Guide">โดย ป๋ารามซิงห์ · RamSingh Property Guide</div>
+                    <div class="article-meta-date" data-th="มีนาคม 2026" data-en="March 2026">มีนาคม 2026</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== ARTICLE BODY ==================== -->
+        <article class="article-body">
+            <!-- SECTION 1: Budget -->
+            <h2 data-th="กำหนดงบจริงๆ" data-en="1. Set Your Real Budget">กำหนดงบจริงๆ</h2>
+
+            <p data-th="ขั้นตอนแรกที่สำคัญที่สุดในการซื้อคอนโดคือการกำหนดงบประมาณของคุณให้แน่นอน การซื้อคอนโดไม่ใช่แค่ราคาห้องเท่านั้น มีค่าใช้จ่ายอื่นๆ อีกมากมายที่คุณต้องคิดไว้" data-en="The first and most important step when buying a condo is determining your budget. Condo purchases are not just about the room price; there are many other costs to consider.">ขั้นตอนแรกที่สำคัญที่สุดในการซื้อคอนโดคือการกำหนดงบประมาณของคุณให้แน่นอน การซื้อคอนโดไม่ใช่แค่ราคาห้องเท่านั้น มีค่าใช้จ่ายอื่นๆ อีกมากมายที่คุณต้องคิดไว้</p>
+
+            <table class="cost-table">
+                <thead>
+                    <tr>
+                        <th data-th="รายการค่าใช้จ่าย" data-en="Expense Item">รายการค่าใช้จ่าย</th>
+                        <th data-th="ประมาณการ" data-en="Estimated Amount">ประมาณการ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-th="ค่าโอนกรรมสิทธิ์" data-en="Transfer Fee">ค่าโอนกรรมสิทธิ์</td>
+                        <td data-th="2-3% ของราคาห้อง" data-en="2-3% of room price">2-3% ของราคาห้อง</td>
+                    </tr>
+                    <tr>
+                        <td data-th="ค่าส่วนกลาง (พื้นที่ร่วม)" data-en="Common Area Fee">ค่าส่วนกลาง (พื้นที่ร่วม)</td>
+                        <td data-th="5,000-10,000 บาท/เดือน" data-en="5,000-10,000 THB/month">5,000-10,000 บาท/เดือน</td>
+                    </tr>
+                    <tr>
+                        <td data-th="เงินสมทบการซ่อมแซม" data-en="Sinking Fund">เงินสมทบการซ่อมแซม</td>
+                        <td data-th="5-10% ของราคาห้อง" data-en="5-10% of room price">5-10% ของราคาห้อง</td>
+                    </tr>
+                    <tr>
+                        <td data-th="ค่าตกแต่งห้อง" data-en="Renovation & Decoration">ค่าตกแต่งห้อง</td>
+                        <td data-th="200,000-1,000,000 บาท" data-en="200,000-1,000,000 THB">200,000-1,000,000 บาท</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="tip-box">
+                <strong data-th="กฎของซิงห์:" data-en="Singh's Rule:">กฎของซิงห์:</strong>
+                <p data-th="นำราคาห้องมาคูณ 1.10-1.15 เพื่อให้ได้งบประมาณที่แท้จริง เช่น ห้องราคา 2 ล้านบาท ให้คิดงบไว้ 2.2-2.3 ล้านบาท" data-en="Multiply the room price by 1.10-1.15 to get your true budget. For example, if a room costs 2 million baht, budget 2.2-2.3 million baht.">นำราคาห้องมาคูณ 1.10-1.15 เพื่อให้ได้งบประมาณที่แท้จริง เช่น ห้องราคา 2 ล้านบาท ให้คิดงบไว้ 2.2-2.3 ล้านบาท</p>
+            </div>
+
+            <!-- SECTION 2: Location -->
+            <h2 data-th="ทำเลสำคัญกว่าตัวห้อง" data-en="2. Location Matters More Than the Unit">ทำเลสำคัญกว่าตัวห้อง</h2>
+
+            <p data-th="ซื้อที่ไม่ดีแต่ห้องดี ไม่ดีเท่าซื้อที่ดีแต่ห้องพอได้ ทำเลจะชี้ขาดมูลค่าทรัพย์สินของคุณในระยะยาว เลือกหาคอนโดที่มีทำเลดีควรดูในด้านต่างๆ ดังนี้" data-en="Buying a poor location with a good room is worse than buying a good location with an adequate room. Location determines long-term property value. Consider these factors when choosing:">ซื้อที่ไม่ดีแต่ห้องดี ไม่ดีเท่าซื้อที่ดีแต่ห้องพอได้ ทำเลจะชี้ขาดมูลค่าทรัพย์สินของคุณในระยะยาว เลือกหาคอนโดที่มีทำเลดีควรดูในด้านต่างๆ ดังนี้</p>
+
+            <ul>
+                <li data-th="ระยะห่างจากสถานีรถไฟฟ้า (BTS/MRT) - ควรเดินได้ไม่เกิน 10 นาที" data-en="Distance from BTS/MRT station - Should be walkable in no more than 10 minutes"><strong data-th="ระยะห่างจากสถานีรถไฟฟ้า" data-en="Distance from BTS/MRT station">ระยะห่างจากสถานีรถไฟฟ้า</strong> <span data-th="(BTS/MRT) - ควรเดินได้ไม่เกิน 10 นาที" data-en="(BTS/MRT) - Should be walkable in no more than 10 minutes">(BTS/MRT) - ควรเดินได้ไม่เกิน 10 นาที</span></li>
+                <li data-th="สิ่งอำนวยความสะดวกใกล้เคียง - ห้างสรรพสินค้า โรงเรียน โรงพยาบาล" data-en="Nearby amenities - Shopping malls, schools, hospitals"><strong data-th="สิ่งอำนวยความสะดวกใกล้เคียง" data-en="Nearby amenities">สิ่งอำนวยความสะดวกใกล้เคียง</strong> <span data-th="- ห้างสรรพสินค้า โรงเรียน โรงพยาบาล" data-en="- Shopping malls, schools, hospitals">- ห้างสรรพสินค้า โรงเรียน โรงพยาบาล</span></li>
+                <li data-th="ทิศทางการพัฒนาของพื้นที่ - มีการพัฒนาโครงสร้างพื้นฐาน โครงการใหม่เพิ่มเติมหรือไม่" data-en="Area development direction - Is there infrastructure development or new projects?"><strong data-th="ทิศทางการพัฒนาของพื้นที่" data-en="Area development direction">ทิศทางการพัฒนาของพื้นที่</strong> <span data-th="- มีการพัฒนาโครงสร้างพื้นฐาน โครงการใหม่เพิ่มเติมหรือไม่" data-en="- Is there infrastructure development or new projects?">- มีการพัฒนาโครงสร้างพื้นฐาน โครงการใหม่เพิ่มเติมหรือไม่</span></li>
+                <li data-th="ประวัติการน้ำท่วม - ควรสอบถามคนในพื้นที่หรือตรวจสอบเส้นชั้นความสูง" data-en="Flood history - Ask locals or check elevation maps"><strong data-th="ประวัติการน้ำท่วม" data-en="Flood history">ประวัติการน้ำท่วม</strong> <span data-th="- ควรสอบถามคนในพื้นที่หรือตรวจสอบเส้นชั้นความสูง" data-en="- Ask locals or check elevation maps">- ควรสอบถามคนในพื้นที่หรือตรวจสอบเส้นชั้นความสูง</span></li>
+            </ul>
+
+            <!-- SECTION 3: Pre-Sale vs Ready -->
+            <h2 data-th="Pre-Sale vs Ready-to-Move" data-en="3. Pre-Sale vs Ready-to-Move">Pre-Sale vs Ready-to-Move</h2>
+
+            <p data-th="การตัดสินใจว่าจะซื้อห้องตัวอย่าง (Ready) หรือห้องในแบบก่อสร้าง (Pre-Sale) นั้นขึ้นอยู่กับความต้องการของคุณเป็นหลัก" data-en="Whether to buy a ready-made unit (Ready) or a unit under construction (Pre-Sale) depends on your needs.">การตัดสินใจว่าจะซื้อห้องตัวอย่าง (Ready) หรือห้องในแบบก่อสร้าง (Pre-Sale) นั้นขึ้นอยู่กับความต้องการของคุณเป็นหลัก</p>
+
+            <h3 data-th="✓ Pre-Sale (ห้องที่อยู่ระหว่างก่อสร้าง)" data-en="✓ Pre-Sale (Units Under Construction)">✓ Pre-Sale (ห้องที่อยู่ระหว่างก่อสร้าง)</h3>
+            <p data-th="ข้อดี:" data-en="Advantages:"><strong data-th="ข้อดี:" data-en="Advantages:">ข้อดี:</strong></p>
+            <ul>
+                <li data-th="ราคาถูกกว่า Pre-Sale มักจะมีส่วนลดและข้อเสนอพิเศษ" data-en="Lower price - Pre-sales usually have discounts and special offers">ราคาถูกกว่า Pre-Sale มักจะมีส่วนลดและข้อเสนอพิเศษ</li>
+                <li data-th="เลือกตัวเลือกห้องและสีได้ การออกแบบสามารถปรับแต่งตามชอบได้บ้าง" data-en="Choice of units and colors - Some customization available">เลือกตัวเลือกห้องและสีได้ การออกแบบสามารถปรับแต่งตามชอบได้บ้าง</li>
+                <li data-th="ผ่อนจ่ายนานขึ้น จ่ายเมื่อส่วนงานเสร็จ ไม่ต้องจ่ายเต็มจำนวนเลย" data-en="Longer payment terms - Pay only upon completion stages">ผ่อนจ่ายนานขึ้น จ่ายเมื่อส่วนงานเสร็จ ไม่ต้องจ่ายเต็มจำนวนเลย</li>
+            </ul>
+            <p data-th="ข้อเสีย:" data-en="Disadvantages:"><strong data-th="ข้อเสีย:" data-en="Disadvantages:">ข้อเสีย:</strong></p>
+            <ul>
+                <li data-th="ต้องรอระยะเวลาไว้ก่อนได้อยู่ จนกว่าจะสำเร็จ" data-en="Must wait for completion before moving in">ต้องรอระยะเวลาไว้ก่อนได้อยู่ จนกว่าจะสำเร็จ</li>
+                <li data-th="มีความเสี่ยงต่อความล่าช้าในการสร้าง" data-en="Risk of construction delays">มีความเสี่ยงต่อความล่าช้าในการสร้าง</li>
+            </ul>
+
+            <h3 data-th="✓ Ready-to-Move (ห้องสำเร็จแล้ว)" data-en="✓ Ready-to-Move (Completed Units)">✓ Ready-to-Move (ห้องสำเร็จแล้ว)</h3>
+            <p data-th="ข้อดี:" data-en="Advantages:"><strong data-th="ข้อดี:" data-en="Advantages:">ข้อดี:</strong></p>
+            <ul>
+                <li data-th="สามารถอยู่ได้ทันที เข้าไปอยู่ได้เลยไม่ต้องรอ" data-en="Move in immediately - No waiting required">สามารถอยู่ได้ทันที เข้าไปอยู่ได้เลยไม่ต้องรอ</li>
+                <li data-th="เห็นห้องจริง อยู่ห้องจริง ตรวจสอบสภาพได้อย่างเต็มที่" data-en="See the actual unit - Full inspection possible">เห็นห้องจริง อยู่ห้องจริง ตรวจสอบสภาพได้อย่างเต็มที่</li>
+                <li data-th="ไม่มีความเสี่ยงจากการก่อสร้าง" data-en="No construction risk">ไม่มีความเสี่ยงจากการก่อสร้าง</li>
+            </ul>
+            <p data-th="ข้อเสีย:" data-en="Disadvantages:"><strong data-th="ข้อเสีย:" data-en="Disadvantages:">ข้อเสีย:</strong></p>
+            <ul>
+                <li data-th="ราคาสูงกว่า ไม่มีส่วนลดมากนัก" data-en="Higher price - Few discounts available">ราคาสูงกว่า ไม่มีส่วนลดมากนัก</li>
+                <li data-th="ตัวเลือกห้องจำกัด บางห้องอาจขายไปแล้ว" data-en="Limited unit selection - Some may be sold">ตัวเลือกห้องจำกัด บางห้องอาจขายไปแล้ว</li>
+            </ul>
+
+            <div class="tip-box">
+                <strong data-th="เคล็ดลับ:" data-en="Tip:">เคล็ดลับ:</strong>
+                <p data-th="ถ้าคุณซื้อเพื่อจะไปอยู่เอง เลือก Ready-to-Move ถ้าต้องการลงทุน เลือก Pre-Sale จะทำให้เงินของคุณทำงานได้เต็มที่" data-en="If you're buying to live in, choose Ready-to-Move. If you're investing, choose Pre-Sale to maximize returns on your money.">ถ้าคุณซื้อเพื่อจะไปอยู่เอง เลือก Ready-to-Move ถ้าต้องการลงทุน เลือก Pre-Sale จะทำให้เงินของคุณทำงานได้เต็มที่</p>
+            </div>
+
+            <!-- SECTION 4: Financing -->
+            <h2 data-th="สินเชื่อบ้าน" data-en="4. Home Loan Preparation">สินเชื่อบ้าน</h2>
+
+            <p data-th="ส่วนใหญ่ผู้ซื้อคอนโดจะไม่สามารถจ่ายเงินสดทั้งหมดได้ จึงต้องใช้สินเชื่อ การเตรียมตัวและเข้าใจเงื่อนไขสินเชื่อนั้นสำคัญมาก" data-en="Most condo buyers cannot pay in cash and need financing. Preparation and understanding loan conditions is crucial.">ส่วนใหญ่ผู้ซื้อคอนโดจะไม่สามารถจ่ายเงินสดทั้งหมดได้ จึงต้องใช้สินเชื่อ การเตรียมตัวและเข้าใจเงื่อนไขสินเชื่อนั้นสำคัญมาก</p>
+
+            <ul>
+                <li data-th="อัตราส่วนรายได้ต่อการผ่อน - โดยทั่วไปไม่ควรเกิน 40% ของรายได้หลังหักภาษี" data-en="Debt-to-income ratio - Typically should not exceed 40% of net income"><strong data-th="อัตราส่วนรายได้ต่อการผ่อน" data-en="Debt-to-income ratio">อัตราส่วนรายได้ต่อการผ่อน</strong> <span data-th="- โดยทั่วไปไม่ควรเกิน 40% ของรายได้หลังหักภาษี" data-en="- Typically should not exceed 40% of net income">- โดยทั่วไปไม่ควรเกิน 40% ของรายได้หลังหักภาษี</span></li>
+                <li data-th="วินัยการชำระหนี้ - ไม่ควรมีหนี้สูญพลาด ดูแลบัญชีเงินฝากไว้ให้สะอาด" data-en="Credit history - No missed payments; keep accounts clean"><strong data-th="วินัยการชำระหนี้" data-en="Credit history">วินัยการชำระหนี้</strong> <span data-th="- ไม่ควรมีหนี้สูญพลาด ดูแลบัญชีเงินฝากไว้ให้สะอาด" data-en="- No missed payments; keep accounts clean">- ไม่ควรมีหนี้สูญพลาด ดูแลบัญชีเงินฝากไว้ให้สะอาด</span></li>
+                <li data-th="ประวัติการทำงาน - ควรมีประวัติการทำงานคงที่อย่างน้อย 6 เดือน ยิ่งนานยิ่งดี" data-en="Employment history - Stable for at least 6 months, longer is better"><strong data-th="ประวัติการทำงาน" data-en="Employment history">ประวัติการทำงาน</strong> <span data-th="- ควรมีประวัติการทำงานคงที่อย่างน้อย 6 เดือน ยิ่งนานยิ่งดี" data-en="- Stable for at least 6 months, longer is better">- ควรมีประวัติการทำงานคงที่อย่างน้อย 6 เดือน ยิ่งนานยิ่งดี</span></li>
+                <li data-th="เงินประมาณ (Down Payment) - พยายามเก็บไว้มากพอสมควร อย่างน้อย 20-25% จะช่วยให้ได้อัตราดอกเบี้ยดีกว่า" data-en="Down payment - Save adequately; at least 20-25% for better interest rates"><strong data-th="เงินประมาณ (Down Payment)" data-en="Down payment">เงินประมาณ (Down Payment)</strong> <span data-th="- พยายามเก็บไว้มากพอสมควร อย่างน้อย 20-25% จะช่วยให้ได้อัตราดอกเบี้ยดีกว่า" data-en="- Save adequately; at least 20-25% for better interest rates">- พยายามเก็บไว้มากพอสมควร อย่างน้อย 20-25% จะช่วยให้ได้อัตราดอกเบี้ยดีกว่า</span></li>
+            </ul>
+
+            <div class="tip-box">
+                <strong data-th="เคล็ดลับ:" data-en="Tip:">เคล็ดลับ:</strong>
+                <p data-th="อย่าเพิ่งสมัครสินเชื่อกับธนาคารแห่งแรกที่เจอ ลองสมัครกับหลายธนาคารแล้วเลือกอัตราดอกเบี้ยที่ดีที่สุด อัตราดอกเบี้ยอาจต่างกันมากถึง 1-2% เลยนะ" data-en="Don't settle for the first bank's offer. Apply to multiple banks and choose the best interest rate; rates can differ by 1-2%.">อย่าเพิ่งสมัครสินเชื่อกับธนาคารแห่งแรกที่เจอ ลองสมัครกับหลายธนาคารแล้วเลือกอัตราดอกเบี้ยที่ดีที่สุด อัตราดอกเบี้ยอาจต่างกันมากถึง 1-2% เลยนะ</p>
+            </div>
+
+            <!-- SECTION 5: Contract Review -->
+            <h2 data-th="สัญญา" data-en="5. Contract Review">สัญญา</h2>
+
+            <p data-th="อ่านสัญญาต้องละเอียดมาก ขาดสักตัวหรือสัญญาเงื่อนไขไม่ชัดเจน อาจเกิดปัญหาได้ในภายหลัง สิ่งที่ต้องตรวจสอบ" data-en="Read contracts carefully. Missing details or unclear terms can cause problems later. Key points to check:">อ่านสัญญาต้องละเอียดมาก ขาดสักตัวหรือสัญญาเงื่อนไขไม่ชัดเจน อาจเกิดปัญหาได้ในภายหลัง สิ่งที่ต้องตรวจสอบ</p>
+
+            <ul>
+                <li data-th="ราคาขายและเงื่อนไขการชำระเงิน - ต้องเห็นชัดเจนว่าจ่ายเมื่อไร เท่าไร อะไรบ้าง" data-en="Sale price and payment terms - Must clearly state when, how much, and what"><strong data-th="ราคาขายและเงื่อนไขการชำระเงิน" data-en="Sale price and payment terms">ราคาขายและเงื่อนไขการชำระเงิน</strong> <span data-th="- ต้องเห็นชัดเจนว่าจ่ายเมื่อไร เท่าไร อะไรบ้าง" data-en="- Must clearly state when, how much, and what">- ต้องเห็นชัดเจนว่าจ่ายเมื่อไร เท่าไร อะไรบ้าง</span></li>
+                <li data-th="ประกันการรับประกันคุณภาพ - ห้องมีประกันกี่ปี ส่วนหนึ่งเสียหายเมื่อไร สามารถแก้ไขได้หรือไม่" data-en="Warranty - For how long? What's covered? How to claim?"><strong data-th="ประกันการรับประกันคุณภาพ" data-en="Warranty">ประกันการรับประกันคุณภาพ</strong> <span data-th="- ห้องมีประกันกี่ปี ส่วนหนึ่งเสียหายเมื่อไร สามารถแก้ไขได้หรือไม่" data-en="- For how long? What's covered? How to claim?">- ห้องมีประกันกี่ปี ส่วนหนึ่งเสียหายเมื่อไร สามารถแก้ไขได้หรือไม่</span></li>
+                <li data-th="วันส่งมอบห้อง (Completion Date) - ต้องชัดเจนว่าเมื่อไร มีความล่าช้าหรือไม่ ต้องชดเชยอย่างไร" data-en="Handover date - When is it? What if delayed? Penalties?"><strong data-th="วันส่งมอบห้อง (Completion Date)" data-en="Handover date">วันส่งมอบห้อง (Completion Date)</strong> <span data-th="- ต้องชัดเจนว่าเมื่อไร มีความล่าช้าหรือไม่ ต้องชดเชยอย่างไร" data-en="- When is it? What if delayed? Penalties?">- ต้องชัดเจนว่าเมื่อไร มีความล่าช้าหรือไม่ ต้องชดเชยอย่างไร</span></li>
+                <li data-th="หนี้สิ้นสุด (Default clause) - ถ้าคุณจ่ายไม่ได้ จะเกิดอะไรขึ้น ต้องจ่ายดอกเบี้ยเพิ่มหรือไม่" data-en="Default clause - What happens if you can't pay? Extra fees or interest?"><strong data-th="หนี้สิ้นสุด (Default clause)" data-en="Default clause">หนี้สิ้นสุด (Default clause)</strong> <span data-th="- ถ้าคุณจ่ายไม่ได้ จะเกิดอะไรขึ้น ต้องจ่ายดอกเบี้ยเพิ่มหรือไม่" data-en="- What happens if you can't pay? Extra fees or interest?">- ถ้าคุณจ่ายไม่ได้ จะเกิดอะไรขึ้น ต้องจ่ายดอกเบี้ยเพิ่มหรือไม่</span></li>
+            </ul>
+
+            <div class="tip-box">
+                <strong data-th="เคล็ดลับ:" data-en="Tip:">เคล็ดลับ:</strong>
+                <p data-th="ถ้าคุณไม่เข้าใจทางกฎหมาย ลองขอให้ทนายความตรวจสอบสัญญาให้ ค่าตรวจสอบอาจสูงแต่ถ้ามีปัญหา อาจช่วยประหยัดเงินได้มากกว่านี้" data-en="If you don't understand legal terms, hire a lawyer to review. The fee might be high, but it could save you much more if problems arise.">ถ้าคุณไม่เข้าใจทางกฎหมาย ลองขอให้ทนายความตรวจสอบสัญญาให้ ค่าตรวจสอบอาจสูงแต่ถ้ามีปัญหา อาจช่วยประหยัดเงินได้มากกว่านี้</p>
+            </div>
+
+            <!-- SECTION 6: Inspection -->
+            <h2 data-th="ตรวจห้อง" data-en="6. Room Inspection">ตรวจห้อง</h2>
+
+            <p data-th="ก่อนจะรับมอบห้องสักอย่าง ต้องตรวจสอบห้องให้ละเอียด บางครั้งหากพบปัญหา อาจขอให้ผู้ขายแก้ไขได้ทันที หรือถ้าแก้ไขไม่ได้ อาจขอเงินคืนบางส่วนได้ สิ่งที่ต้องตรวจสอบมีดังนี้" data-en="Before accepting the unit, inspect thoroughly. If problems are found, you may request repairs or partial refunds. Key inspection points:">ก่อนจะรับมอบห้องสักอย่าง ต้องตรวจสอบห้องให้ละเอียด บางครั้งหากพบปัญหา อาจขอให้ผู้ขายแก้ไขได้ทันที หรือถ้าแก้ไขไม่ได้ อาจขอเงินคืนบางส่วนได้ สิ่งที่ต้องตรวจสอบมีดังนี้</p>
+
+            <ul>
+                <li data-th="ระบบประปา - เปิดก๊อกน้ำทั้งหมด ตรวจสอบว่าไม่มีรั่ว ความดันน้ำพอดี ปล่อยน้ำออกเร็วหรือช้า" data-en="Plumbing - Turn on all taps; check for leaks, water pressure, drainage"><strong data-th="ระบบประปา" data-en="Plumbing">ระบบประปา</strong> <span data-th="- เปิดก๊อกน้ำทั้งหมด ตรวจสอบว่าไม่มีรั่ว ความดันน้ำพอดี ปล่อยน้ำออกเร็วหรือช้า" data-en="- Turn on all taps; check for leaks, water pressure, drainage">- เปิดก๊อกน้ำทั้งหมด ตรวจสอบว่าไม่มีรั่ว ความดันน้ำพอดี ปล่อยน้ำออกเร็วหรือช้า</span></li>
+                <li data-th="ระบบไฟฟ้า - ลองเปิดปิดสวิตช์ทั้งหมด ตรวจสอบว่ากระแสไฟมีกำลังพอ ลองเปิดเครื่องใช้ไฟฟ้าพร้อมกันหลายเครื่องดู" data-en="Electrical - Test all switches and circuits; check power capacity with multiple appliances"><strong data-th="ระบบไฟฟ้า" data-en="Electrical">ระบบไฟฟ้า</strong> <span data-th="- ลองเปิดปิดสวิตช์ทั้งหมด ตรวจสอบว่ากระแสไฟมีกำลังพอ ลองเปิดเครื่องใช้ไฟฟ้าพร้อมกันหลายเครื่องดู" data-en="- Test all switches and circuits; check power capacity with multiple appliances">- ลองเปิดปิดสวิตช์ทั้งหมด ตรวจสอบว่ากระแสไฟมีกำลังพอ ลองเปิดเครื่องใช้ไฟฟ้าพร้อมกันหลายเครื่องดู</span></li>
+                <li data-th="ผนัง หลัง เพดาน - มองหาร่องรอยน้ำรั่ว เห็นความชื้น หรือรอยแตกได้หรือไม่" data-en="Walls, doors, ceiling - Look for water stains, moisture, or cracks"><strong data-th="ผนัง หลัง เพดาน" data-en="Walls, doors, ceiling">ผนัง หลัง เพดาน</strong> <span data-th="- มองหาร่องรอยน้ำรั่ว เห็นความชื้น หรือรอยแตกได้หรือไม่" data-en="- Look for water stains, moisture, or cracks">- มองหาร่องรอยน้ำรั่ว เห็นความชื้น หรือรอยแตกได้หรือไม่</span></li>
+                <li data-th="ประตูและหน้าต่าง - ลองเปิดปิดทั้งหมด ดูว่าปิดแน่นหรือไม่ มีรอยนัด แหนบ หรือขยิบไหม" data-en="Doors and windows - Open/close all; check seals and alignment"><strong data-th="ประตูและหน้าต่าง" data-en="Doors and windows">ประตูและหน้าต่าง</strong> <span data-th="- ลองเปิดปิดทั้งหมด ดูว่าปิดแน่นหรือไม่ มีรอยนัด แหนบ หรือขยิบไหม" data-en="- Open/close all; check seals and alignment">- ลองเปิดปิดทั้งหมด ดูว่าปิดแน่นหรือไม่ มีรอยนัด แหนบ หรือขยิบไหม</span></li>
+                <li data-th="วิวและทิศทางแสง - ตรวจสอบว่าหน้าต่างหันไปยังที่ไหน มีแสงสดใจหรือไม่ ถ้า Ready ลองไปดูตอนต่างๆ ของวัน" data-en="View and natural light - Check window direction; visit at different times"><strong data-th="วิวและทิศทางแสง" data-en="View and natural light">วิวและทิศทางแสง</strong> <span data-th="- ตรวจสอบว่าหน้าต่างหันไปยังที่ไหน มีแสงสดใจหรือไม่ ถ้า Ready ลองไปดูตอนต่างๆ ของวัน" data-en="- Check window direction; visit at different times">- ตรวจสอบว่าหน้าต่างหันไปยังที่ไหน มีแสงสดใจหรือไม่ ถ้า Ready ลองไปดูตอนต่างๆ ของวัน</span></li>
+            </ul>
+
+            <div class="tip-box">
+                <strong data-th="เคล็ดลับ:" data-en="Tip:">เคล็ดลับ:</strong>
+                <p data-th="นำมาตรวัดน้ำ สายวัด ไม้ระดับ และสมุดบันทึก เมื่อไปตรวจห้อง จดบันทึกทั้งหมด ถ่ายรูปปัญหาที่พบด้วย จะช่วยให้เมื่อเกิดข้อพิพาท คุณมีหลักฐานเพียงพอ" data-en="Bring measuring tape, spirit level, and a notebook. Document everything, take photos, and keep records for disputes.">นำมาตรวัดน้ำ สายวัด ไม้ระดับ และสมุดบันทึก เมื่อไปตรวจห้อง จดบันทึกทั้งหมด ถ่ายรูปปัญหาที่พบด้วย จะช่วยให้เมื่อเกิดข้อพิพาท คุณมีหลักฐานเพียงพอ</p>
+            </div>
+
+            <!-- SUMMARY -->
+            <h2 data-th="สรุป" data-en="Summary">สรุป</h2>
+
+            <p data-th="การซื้อคอนโดครั้งแรกเป็นการตัดสินใจที่สำคัญ ต้องใจเย็นๆ คิดให้ดี ทำเนียบฉบับให้ชัดเจน และไม่พึ่งตัดสินใจเร็วแบบเพราะคนขายเร้ง ความสำเร็จของการซื้อคอนโดขึ้นอยู่กับการเตรียมตัวให้ดี ตรวจสอบข้อมูลให้ทั่วถึง และรักษาวินัยการชำระเงินตามสัญญา" data-en="Buying a condo for the first time is a significant decision. Take your time, think carefully, clarify all contracts, and don't rush due to seller pressure. Success depends on preparation, thorough investigation, and disciplined payment management.">การซื้อคอนโดครั้งแรกเป็นการตัดสินใจที่สำคัญ ต้องใจเย็นๆ คิดให้ดี ทำเนียบฉบับให้ชัดเจน และไม่พึ่งตัดสินใจเร็วแบบเพราะคนขายเร้ง ความสำเร็จของการซื้อคอนโดขึ้นอยู่กับการเตรียมตัวให้ดี ตรวจสอบข้อมูลให้ทั่วถึง และรักษาวินัยการชำระเงินตามสัญญา</p>
+
+            <p data-th="อยากให้ผู้ซื้อทุกคนสามารถหาคอนโดที่ใจต้องการในงบประมาณที่พอเหมาะพอสมควร และได้ความสุขจากการอยู่อาศัยที่คุณเลือก" data-en="I hope all buyers find the condo of their dreams within budget and enjoy their chosen home.">อยากให้ผู้ซื้อทุกคนสามารถหาคอนโดที่ใจต้องการในงบประมาณที่พอเหมาะพอสมควร และได้ความสุขจากการอยู่อาศัยที่คุณเลือก</p>
+
+            <p data-th="— ป๋ารามซิงห์" data-en="— Pa RamSingh">— ป๋ารามซิงห์</p>
+        </article>
+
+        <!-- ==================== CTA SECTION ==================== -->
+        <section class="cta-section">
+            <h3 data-th="อยากปรึกษาเรื่องซื้อคอนโด?" data-en="Need Condo Buying Advice?">อยากปรึกษาเรื่องซื้อคอนโด?</h3>
+            <p data-th="ติดต่อทีม RamSingh Property Guide เพื่อขอคำปรึกษาเพิ่มเติมเกี่ยวกับการซื้อคอนโด" data-en="Contact RamSingh Property Guide for personalized condo buying consultation.">ติดต่อทีม RamSingh Property Guide เพื่อขอคำปรึกษาเพิ่มเติมเกี่ยวกับการซื้อคอนโด</p>
+            <a href="../index.html#contact" class="cta-btn" data-th="ติดต่อเรา" data-en="CONTACT US">ติดต่อเรา</a>
+        </section>
+
+        <!-- ==================== BACK LINK ==================== -->
+        <div class="back-link">
+            <a href="../index.html" data-th="← ย้อนกลับไปยังบทความทั้งหมด" data-en="← Back to All Articles">← ย้อนกลับไปยังบทความทั้งหมด</a>
+        </div>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <picture>
+                    <source srcset="../assets/img/logo/logo-horizontal-dark.webp" type="image/webp">
+                    <img src="../assets/img/logo/logo-horizontal-dark.png" alt="RamSingh Property Guide" style="height:32px">
+                </picture>
+            </div>
+
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4 data-th="บริษัท" data-en="Company">บริษัท</h4>
+                    <ul>
+                        <li><a href="../index.html" data-th="หน้าแรก" data-en="Home">หน้าแรก</a></li>
+                        <li><a href="../index.html" data-th="บทความ" data-en="Journal">บทความ</a></li>
+                        <li><a href="../index.html#services" data-th="บริการ" data-en="Services">บริการ</a></li>
+                        <li><a href="../index.html#contact" data-th="ติดต่อ" data-en="Contact">ติดต่อ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-th="บริการ" data-en="Services">บริการ</h4>
+                    <ul>
+                        <li><a href="../index.html#services" data-th="ค้นหาคอนโด" data-en="Find Condos">ค้นหาคอนโด</a></li>
+                        <li><a href="../index.html#services" data-th="ปรึกษาด้านการเงิน" data-en="Finance Advice">ปรึกษาด้านการเงิน</a></li>
+                        <li><a href="../index.html#services" data-th="ตรวจสอบทำเล" data-en="Location Review">ตรวจสอบทำเล</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-th="ทรัพยากร" data-en="Resources">ทรัพยากร</h4>
+                    <ul>
+                        <li><a href="../index.html" data-th="คู่มือซื้อบ้าน" data-en="Buying Guide">คู่มือซื้อบ้าน</a></li>
+                        <li><a href="../index.html#services" data-th="ข้อมูลตลาด" data-en="Market Data">ข้อมูลตลาด</a></li>
+                        <li><a href="../index.html#contact" data-th="ถามตอบ" data-en="FAQ">ถามตอบ</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-disclaimer">
+                    <p data-th="บทความนี้มีวัตถุประสงค์เพื่อให้ข้อมูลเท่านั้น ไม่ใช่คำแนะนำทางกฎหมายหรือการลงทุน กรุณาปรึกษาผู้เชี่ยวชาญจริงของคุณก่อนทำการตัดสินใจใดๆ" data-en="This article is for informational purposes only, not legal or investment advice. Consult qualified professionals before making decisions.">บทความนี้มีวัตถุประสงค์เพื่อให้ข้อมูลเท่านั้น ไม่ใช่คำแนะนำทางกฎหมายหรือการลงทุน กรุณาปรึกษาผู้เชี่ยวชาญจริงของคุณก่อนทำการตัดสินใจใดๆ</p>
+                </div>
+                <div class="footer-copyright">
+                    <p data-th="© 2026 RamSingh Property Guide. สงวนลิขสิทธิ์" data-en="© 2026 RamSingh Property Guide. All rights reserved.">© 2026 RamSingh Property Guide. สงวนลิขสิทธิ์</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== LANGUAGE SWITCHING SCRIPT ==================== -->
+    <script>
+        function setLang(lang) {
+            // Update active button
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`.lang-btn[data-lang="${lang}"]`).classList.add('active');
+
+            // Update page language attribute
+            document.documentElement.lang = lang;
+
+            // Update text content
+            document.querySelectorAll('[data-th][data-en]').forEach(el => {
+                if (lang === 'th') {
+                    el.textContent = el.getAttribute('data-th');
+                } else {
+                    el.textContent = el.getAttribute('data-en');
+                }
+            });
+
+            // Update href for navigation links based on language
+            document.querySelectorAll('a[data-th][data-en]').forEach(link => {
+                // Keep href as is, only update text
+                if (lang === 'th') {
+                    link.textContent = link.getAttribute('data-th');
+                } else {
+                    link.textContent = link.getAttribute('data-en');
+                }
+            });
+
+            // Store language preference
+            localStorage.setItem('preferredLang', lang);
+        }
+
+        // Load preferred language on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('preferredLang') || 'th';
+            setLang(savedLang);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete guide for foreigners buying property in Thailand. Learn about ownership rules, step-by-step process, costs, and best expat neighborhoods.">
+    <meta name="keywords" content="buying property Thailand, foreigner, condominiums, Bangkok real estate, expat guide">
+    <meta name="author" content="Pa RamSingh, RamSingh Property Guide">
+    <title>Buying Property in Thailand as a Foreigner | RamSingh Property Guide Blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --gold: #C9A84C;
+            --gold-light: #E2CC8B;
+            --gold-muted: #A68B3C;
+            --dark: #1C1C1C;
+            --darker: #121212;
+            --charcoal: #2A2A2A;
+            --cream: #F5F0E8;
+            --white: #FAFAF8;
+            --text: #D4D0C8;
+            --text-muted: #8A8578;
+            --red-warn: #DC2626;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans Thai', sans-serif;
+            background-color: var(--darker);
+            color: var(--text);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        /* ========== NAVIGATION ========== */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background: rgba(18, 18, 18, 0.92);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            z-index: 1000;
+        }
+
+        nav .logo picture {
+            display: flex;
+        }
+
+        nav .logo img {
+            height: 36px;
+            width: auto;
+        }
+
+        nav .nav-center {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--gold);
+        }
+
+        nav .lang-toggle {
+            display: flex;
+            gap: 10px;
+            margin-left: 40px;
+            border-left: 1px solid rgba(201, 168, 76, 0.2);
+            padding-left: 40px;
+        }
+
+        nav .lang-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
+            padding: 5px 8px;
+        }
+
+        nav .lang-btn.active {
+            color: var(--gold);
+        }
+
+        /* ========== ARTICLE LAYOUT ========== */
+        .article-wrapper {
+            margin-top: 80px;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, var(--darker) 0%, var(--charcoal) 100%);
+            padding: 80px 40px;
+            text-align: center;
+            border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+        }
+
+        .category-badge {
+            display: inline-block;
+            color: var(--gold);
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 52px;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 30px;
+            line-height: 1.3;
+            letter-spacing: -1px;
+        }
+
+        .author-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .author-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: rgba(201, 168, 76, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .author-text {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .author-text strong {
+            color: var(--gold);
+            font-weight: 600;
+        }
+
+        /* ========== CONTENT ARTICLE ========== */
+        .article-content {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 40px;
+        }
+
+        .article-content h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 36px;
+            font-weight: 600;
+            color: var(--gold);
+            margin-top: 50px;
+            margin-bottom: 25px;
+            line-height: 1.3;
+            letter-spacing: -0.5px;
+        }
+
+        .article-content h2:first-child {
+            margin-top: 0;
+        }
+
+        .article-content h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--gold-light);
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .article-content p {
+            margin-bottom: 20px;
+            color: var(--text);
+            font-weight: 300;
+            line-height: 1.8;
+        }
+
+        .article-content ul {
+            list-style: none;
+            margin-bottom: 25px;
+            margin-left: 0;
+        }
+
+        .article-content ul li {
+            padding-left: 30px;
+            margin-bottom: 15px;
+            position: relative;
+            color: var(--text);
+            line-height: 1.8;
+        }
+
+        .article-content ul li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-weight: 600;
+        }
+
+        /* ========== TIP & WARNING BOXES ========== */
+        .tip-box {
+            background-color: rgba(201, 168, 76, 0.08);
+            border-left: 4px solid var(--gold);
+            padding: 25px;
+            margin: 40px 0;
+            border-radius: 2px;
+        }
+
+        .tip-box strong {
+            color: var(--gold-light);
+            font-weight: 600;
+        }
+
+        .warning-box {
+            background-color: rgba(220, 38, 38, 0.08);
+            border-left: 4px solid var(--red-warn);
+            padding: 25px;
+            margin: 40px 0;
+            border-radius: 2px;
+        }
+
+        .warning-box strong {
+            color: #FF6B6B;
+            font-weight: 600;
+        }
+
+        /* ========== COST TABLE ========== */
+        .cost-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 35px 0;
+            background-color: rgba(201, 168, 76, 0.03);
+            border: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        .cost-table th {
+            background-color: rgba(201, 168, 76, 0.1);
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: var(--gold);
+            border-bottom: 2px solid rgba(201, 168, 76, 0.2);
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cost-table td {
+            padding: 15px;
+            border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+            color: var(--text);
+        }
+
+        .cost-table tr:hover td {
+            background-color: rgba(201, 168, 76, 0.05);
+        }
+
+        /* ========== CTA SECTION ========== */
+        .cta-section {
+            margin-top: 60px;
+            padding: 50px;
+            background: linear-gradient(135deg, rgba(201, 168, 76, 0.1) 0%, rgba(201, 168, 76, 0.05) 100%);
+            border: 1px solid rgba(201, 168, 76, 0.15);
+            text-align: center;
+            border-radius: 2px;
+        }
+
+        .cta-section h3 {
+            color: var(--gold);
+            margin-bottom: 15px;
+        }
+
+        .cta-section p {
+            color: var(--text-muted);
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: var(--gold);
+            color: var(--darker);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            border-radius: 2px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 13px;
+        }
+
+        .btn:hover {
+            background-color: var(--gold-light);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--gold);
+            border: 2px solid var(--gold);
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(201, 168, 76, 0.1);
+        }
+
+        /* ========== BACK LINK ========== */
+        .back-link {
+            margin-bottom: 40px;
+        }
+
+        .back-link a {
+            color: var(--gold);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
+        }
+
+        .back-link a:before {
+            content: "← ";
+        }
+
+        .back-link a:hover {
+            color: var(--gold-light);
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            background-color: var(--darker);
+            border-top: 1px solid rgba(201, 168, 76, 0.1);
+            padding: 50px 40px;
+            margin-top: 80px;
+            text-align: center;
+        }
+
+        footer p {
+            color: var(--text-muted);
+            font-size: 13px;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        footer strong {
+            color: var(--gold);
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 768px) {
+            nav {
+                padding: 0 20px;
+                flex-direction: column;
+                height: auto;
+                gap: 15px;
+            }
+
+            nav .nav-center {
+                gap: 20px;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            nav .lang-toggle {
+                margin-left: 0;
+                padding-left: 0;
+                border-left: none;
+            }
+
+            .article-wrapper {
+                margin-top: 0;
+            }
+
+            .hero-section {
+                padding: 40px 20px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            .article-content {
+                padding: 0 20px;
+            }
+
+            .article-content h2 {
+                font-size: 28px;
+            }
+
+            .cost-table {
+                font-size: 14px;
+            }
+
+            .cost-table th,
+            .cost-table td {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="logo">
+            <picture>
+                <source srcset="../assets/img/logo/logo-horizontal-dark.webp" type="image/webp">
+                <img src="../assets/img/logo/logo-horizontal-dark.png" alt="RamSingh Property Guide" style="height:36px">
+            </picture>
+        </div>
+
+        <div class="nav-center">
+            <a href="../index.html" data-en="Home" data-th="หน้าแรก">Home</a>
+            <a href="../index.html" data-en="Properties" data-th="อสังหา">Properties</a>
+            <a href="./" data-en="Blog" data-th="บทความ">Blog</a>
+            <a href="../index.html" data-en="Contact" data-th="ติดต่อ">Contact</a>
+        </div>
+
+        <div class="lang-toggle">
+            <button class="lang-btn active" onclick="setLang('en')" data-en="EN" data-th="EN">EN</button>
+            <button class="lang-btn" onclick="setLang('th')" data-en="TH" data-th="ไทย">TH</button>
+        </div>
+    </nav>
+
+    <!-- ARTICLE WRAPPER -->
+    <div class="article-wrapper">
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <div class="category-badge" data-en="🌏 Expat Guide" data-th="🌏 คู่มือ Expat">🌏 Expat Guide</div>
+
+            <h1 data-en="Buying Property in Thailand as a Foreigner" data-th="ซื้ออสังหาในไทยสำหรับชาวต่างชาติ">Buying Property in Thailand as a Foreigner</h1>
+
+            <div class="author-info">
+                <div class="author-avatar">👨‍💼</div>
+                <div class="author-text">
+                    <strong data-en="By Pa RamSingh" data-th="โดย ป๋ารามซิงห์">By Pa RamSingh</strong>
+                    <br>
+                    <span data-en="RamSingh Property Guide · March 2026" data-th="RamSingh Property Guide · มีนาคม 2026">RamSingh Property Guide · March 2026</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ARTICLE CONTENT -->
+        <article class="article-content">
+            <div class="back-link">
+                <a href="./" data-en="Back to Blog" data-th="กลับไปที่บทความ">Back to Blog</a>
+            </div>
+
+            <!-- SECTION 1: CAN FOREIGNERS OWN PROPERTY? -->
+            <h2 data-en="Can Foreigners Own Property?" data-th="ชาวต่างชาติเป็นเจ้าของอสังหาได้ไหม?">Can Foreigners Own Property?</h2>
+
+            <p data-en="Thailand's property ownership laws are complex, but the short answer is: yes—with limitations. Understanding what you can and cannot own is the crucial first step." data-th="กฎหมายเกี่ยวกับการเป็นเจ้าของอสังหาริมทรัพย์ของไทยมีความซับซ้อน แต่คำตอบสั้น ๆ คือ ใช่ แต่มีข้อจำกัด การทำความเข้าใจว่าคุณสามารถเป็นเจ้าของอะไรและไม่สามารถเป็นเจ้าของอะไรได้นั้นเป็นขั้นตอนแรกที่สำคัญ">Thailand's property ownership laws are complex, but the short answer is: yes—with limitations. Understanding what you can and cannot own is the crucial first step.</p>
+
+            <h3 data-en="What You CAN Own" data-th="สิ่งที่คุณสามารถเป็นเจ้าของได้">What You CAN Own</h3>
+            <ul>
+                <li data-en="Condominiums (up to 49% of total units in a building)" data-th="อพาร์ตเมนต์ (ได้ถึง 49% ของหน่วยทั้งหมดในอาคาร)">Condominiums (up to 49% of total units in a building)</li>
+                <li data-en="Commercial buildings (office buildings, shops)" data-th="อาคารพาณิชย์ (อาคารสำนักงาน ร้านค้า)">Commercial buildings (office buildings, shops)</li>
+                <li data-en="Townhouses (in some cases, depending on structure)" data-th="ทาวน์เฮาส์ (ในบางกรณีขึ้นอยู่กับโครงสร้าง)">Townhouses (in some cases, depending on structure)</li>
+            </ul>
+
+            <h3 data-en="What You CANNOT Own" data-th="สิ่งที่คุณไม่สามารถเป็นเจ้าของได้">What You CANNOT Own</h3>
+            <ul>
+                <li data-en="Land (the biggest restriction—even if you marry a Thai citizen)" data-th="ที่ดิน (ข้อจำกัดที่สำคัญที่สุด แม้ว่าคุณจะแต่งงานกับคนไทย)">Land (the biggest restriction—even if you marry a Thai citizen)</li>
+                <li data-en="Detached houses or single-family homes" data-th="บ้านแยกต่างหากหรือบ้านครอบครัวเดียว">Detached houses or single-family homes</li>
+                <li data-en="Agricultural land" data-th="ที่ดินเกษตรกรรม">Agricultural land</li>
+            </ul>
+
+            <h3 data-en="Common Workarounds" data-th="วิธีแก้ปัญหาทั่วไป">Common Workarounds</h3>
+            <ul>
+                <li data-en="Thai Limited Company: Establish a Thai company where you own shares (though this has tax implications)" data-th="บริษัท จำกัด ไทย: ตั้งบริษัทไทยที่คุณเป็นเจ้าของหุ้น (แม้ว่านี่จะมีผลกระทบต่อภาษี)">Thai Limited Company: Establish a Thai company where you own shares (though this has tax implications)</li>
+                <li data-en="Leasehold: Lease land for up to 30 years (renewable)" data-th="สัญญาเช่า: เช่าที่ดินได้นานถึง 30 ปี (สามารถต่ออายุได้)">Leasehold: Lease land for up to 30 years (renewable)</li>
+                <li data-en="Board of Investment (BOI): Get BOI promotion for specific investments (requires significant capital)" data-th="สำนักงานคณะกรรมการส่งเสริมการลงทุน (BOI): ได้รับการส่งเสริม BOI สำหรับการลงทุนเฉพาะ (ต้องใช้เงินทุนจำนวนมาก)">Board of Investment (BOI): Get BOI promotion for specific investments (requires significant capital)</li>
+                <li data-en="Marriage to Thai Citizen: Property can be registered in the Thai spouse's name with a prenuptial agreement" data-th="แต่งงานกับพลเมืองไทย: อสังหาริมทรัพย์สามารถลงทะเบียนในชื่อคู่สมรสไทยด้วยข้อตกลงก่อนแต่งงาน">Marriage to Thai Citizen: Property can be registered in the Thai spouse's name with a prenuptial agreement</li>
+            </ul>
+
+            <div class="tip-box">
+                <strong data-en="Singh's Advice:" data-th="คำแนะนำจากป๋ารามซิงห์:">Singh's Advice:</strong>
+                <p data-en="Most foreign investors choose condominiums because they offer clear ownership, no corporate complexity, and strong appreciation potential. It's the most straightforward path for first-time international property buyers." data-th="นักลงทุนต่างชาติส่วนใหญ่เลือกอพาร์ตเมนต์เพราะอสังหาริมทรัพย์เหล่านี้มีความชัดเจนในการเป็นเจ้าของ ไม่มีความซับซ้อนของบริษัท และมีศักยภาพในการ升值ที่แข็งแกร่ง นี่คือเส้นทางที่ตรงไปตรงมาที่สุดสำหรับผู้ซื้อที่อสังหาริมทรัพย์สากลเป็นครั้งแรก">Most foreign investors choose condominiums because they offer clear ownership, no corporate complexity, and strong appreciation potential. It's the most straightforward path for first-time international property buyers.</p>
+            </div>
+
+            <!-- SECTION 2: STEP-BY-STEP HOW TO BUY -->
+            <h2 data-en="Step-by-Step: How to Buy a Condo" data-th="ขั้นตอนที่ต้องปฏิบัติ: วิธีซื้อคอนโด">Step-by-Step: How to Buy a Condo</h2>
+
+            <h3 data-en="Step 1: Find Your Property" data-th="ขั้นตอน 1: หาอสังหาริมทรัพย์ของคุณ">Step 1: Find Your Property</h3>
+            <p data-en="Browse listings on major portals like DDproperty, Hipflat, or 99.co. Use real estate agents who can guide you through financing options and legal requirements. Attend property viewings and compare locations, prices, and facilities." data-th="ค้นหารายการบนพอร์ทัลหลักเช่น DDproperty, Hipflat หรือ 99.co ใช้บริการตัวแทนอสังหาริมทรัพย์ที่สามารถแนะนำคุณเกี่ยวกับตัวเลือกการจัดหาเงินและข้อกำหนดทางกฎหมาย เข้าร่วมการแสดงอสังหาริมทรัพย์และเปรียบเทียบสถานที่ ราคา และสิ่งอำนวยความสะดวก">Browse listings on major portals like DDproperty, Hipflat, or 99.co. Use real estate agents who can guide you through financing options and legal requirements. Attend property viewings and compare locations, prices, and facilities.</p>
+
+            <h3 data-en="Step 2: Make a Reservation" data-th="ขั้นตอน 2: ทำการจอง">Step 2: Make a Reservation</h3>
+            <p data-en="Once you've chosen a property, sign a Memorandum of Understanding (MOU) or booking agreement. This typically requires a 5-10% deposit to hold the unit. The MOU outlines key terms: price, payment schedule, and conditions. Keep copies of all documents." data-th="เมื่อคุณเลือกอสังหาริมทรัพย์แล้ว ลงนามในข้อตกลงความเข้าใจ (MOU) หรือข้อตกลงการจอง โดยทั่วไปต้องมีเงินมัดจำ 5-10% เพื่อจองหน่วยดังกล่าว MOU ระบุเงื่อนไขหลัก: ราคา ตารางเวลาการชำระเงิน และเงื่อนไข เก็บสำเนาเอกสารทั้งหมดไว้">Once you've chosen a property, sign a Memorandum of Understanding (MOU) or booking agreement. This typically requires a 5-10% deposit to hold the unit. The MOU outlines key terms: price, payment schedule, and conditions. Keep copies of all documents.</p>
+
+            <h3 data-en="Step 3: Sign the Sales and Purchase Agreement (SPA)" data-th="ขั้นตอน 3: ลงนามในข้อตกลงการขายและการซื้อ (SPA)">Step 3: Sign the Sales and Purchase Agreement (SPA)</h3>
+            <p data-en="The SPA is the legal contract binding both buyer and seller. This is usually prepared by a lawyer. Review all terms carefully—especially payment conditions, delivery dates, and penalty clauses. Sign in front of a lawyer before transferring funds." data-th="SPA คือสัญญาผูกพันทางกฎหมายระหว่างผู้ซื้อและผู้ขาย โดยทั่วไปเตรียมโดยทนายความ ตรวจสอบเงื่อนไขทั้งหมดอย่างรอบคอบ โดยเฉพาะเงื่อนไขการชำระเงิน วันที่ส่งมอบ และบทบัญญัติเกี่ยวกับการคำนวณค่าปรับ ลงนามต่อหน้าทนายความก่อนโอนเงิน">The SPA is the legal contract binding both buyer and seller. This is usually prepared by a lawyer. Review all terms carefully—especially payment conditions, delivery dates, and penalty clauses. Sign in front of a lawyer before transferring funds.</p>
+
+            <h3 data-en="Step 4: Transfer Funds & Secure Documentation" data-th="ขั้นตอน 4: โอนเงินและเอกสารอย่างปลอดภัย">Step 4: Transfer Funds & Secure Documentation</h3>
+            <p data-en="Wire the remaining payment to the seller's designated Thai bank account. Request a Thor Tor 3 form (Transfer of Immovable Property) from the seller's lawyer before release of funds. This document confirms no outstanding taxes or liabilities on the property." data-th="โอนเงินที่เหลือไปยังบัญชีธนาคารไทยที่ได้รับมอบหมาย ขอแบบฟอร์ม Thor Tor 3 (โอนอสังหาริมทรัพย์) จากทนายความของผู้ขายก่อนปล่อยเงิน เอกสารนี้ยืนยันว่าไม่มีภาษีคงค้างหรือหนี้สินอื่น ๆ ในอสังหาริมทรัพย์">Wire the remaining payment to the seller's designated Thai bank account. Request a Thor Tor 3 form (Transfer of Immovable Property) from the seller's lawyer before release of funds. This document confirms no outstanding taxes or liabilities on the property.</p>
+
+            <div class="warning-box">
+                <strong data-en="CRITICAL WARNING:" data-th="การเตือนที่สำคัญ:">CRITICAL WARNING:</strong>
+                <p data-en="Never transfer funds until you have reviewed the Thor Tor 3 form and confirmed it shows zero liabilities. This single document protects you from inheriting the seller's unpaid taxes or utility bills. If the seller delays providing it, do not release payment." data-th="อย่าโอนเงินจนกว่าคุณจะตรวจสอบแบบฟอร์ม Thor Tor 3 และยืนยันว่ามีศูนย์หนี้สิน เอกสารเดียวนี้ปกป้องคุณจากการสืบทอดภาษีที่ค้างชำระหรือค่าสาธารณูปโภคของผู้ขาย หากผู้ขายชักช้าในการให้เอกสาร อย่าปล่อยเงิน">Never transfer funds until you have reviewed the Thor Tor 3 form and confirmed it shows zero liabilities. This single document protects you from inheriting the seller's unpaid taxes or utility bills. If the seller delays providing it, do not release payment.</p>
+            </div>
+
+            <h3 data-en="Step 5: Title Transfer at Land Office" data-th="ขั้นตอน 5: การโอนสิทธิ์ที่สำนักงานที่ดิน">Step 5: Title Transfer at Land Office</h3>
+            <p data-en="The buyer, seller, and their lawyers visit the Land Office (Chanote) to officially transfer ownership. The Thai owner's certificate is updated to reflect the new foreign owner. This is the final step—ownership is now legally yours. All transfer fees and taxes are settled at this point." data-th="ผู้ซื้อ ผู้ขาย และทนายความของพวกเขาไปที่สำนักงานที่ดิน (Chanote) เพื่อโอนการเป็นเจ้าของอย่างเป็นทางการ ใบรับรองเจ้าของไทยจะได้รับการปรับปรุงเพื่อสะท้อนเจ้าของต่างชาติใหม่ นี่คือขั้นตอนสุดท้าย ตอนนี้คุณเป็นเจ้าของโดยชอบธรรม ค่าโอนและภาษีทั้งหมดได้รับการชำระในจุดนี้">The buyer, seller, and their lawyers visit the Land Office (Chanote) to officially transfer ownership. The Thai owner's certificate is updated to reflect the new foreign owner. This is the final step—ownership is now legally yours. All transfer fees and taxes are settled at this point.</p>
+
+            <!-- SECTION 3: COSTS BEYOND THE PRICE TAG -->
+            <h2 data-en="Costs Beyond the Price Tag" data-th="ค่าใช้จ่ายนอกเหนือจากราคาห้อง">Costs Beyond the Price Tag</h2>
+
+            <p data-en="Purchasing price is just the beginning. Budget for these additional costs, which typically range from 10-15% of the property price:" data-th="ราคาซื้อเป็นเพียงจุดเริ่มต้น ตั้งงบประมาณสำหรับค่าใช้จ่ายเพิ่มเติมเหล่านี้ ซึ่งโดยทั่วไปแล้วอยู่ในช่วง 10-15% ของราคาอสังหาริมทรัพย์:">Purchasing price is just the beginning. Budget for these additional costs, which typically range from 10-15% of the property price:</p>
+
+            <table class="cost-table">
+                <thead>
+                    <tr>
+                        <th data-en="Cost Item" data-th="รายการค่าใช้จ่าย">Cost Item</th>
+                        <th data-en="Percentage" data-th="เปอร์เซ็นต์">Percentage</th>
+                        <th data-en="Notes" data-th="หมายเหตุ">Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-en="Transfer Fee" data-th="ค่าโอน">Transfer Fee</td>
+                        <td>2%</td>
+                        <td data-en="Split 50/50 between buyer and seller" data-th="แบ่งครึ่งระหว่างผู้ซื้อและผู้ขาย">Split 50/50 between buyer and seller</td>
+                    </tr>
+                    <tr>
+                        <td data-en="Stamp Duty (SBT)" data-th="ค่าอากรแสตมป์ (SBT)">Stamp Duty (SBT)</td>
+                        <td>0.5%</td>
+                        <td data-en="Applied by Land Office" data-th="จัดใช้โดยสำนักงานที่ดิน">Applied by Land Office</td>
+                    </tr>
+                    <tr>
+                        <td data-en="Withholding Tax (if seller is individual)" data-th="ภาษีหัก ณ ที่จ่าย (หากผู้ขายเป็นบุคคล)">Withholding Tax</td>
+                        <td>1-3%</td>
+                        <td data-en="Varies; higher if property held <5 years" data-th="แตกต่างกัน; สูงกว่าหากถือครอง <5 ปี">Varies; higher if property held <5 years</td>
+                    </tr>
+                    <tr>
+                        <td data-en="Specific Business Tax" data-th="ภาษีธุรกิจเฉพาะ">Specific Business Tax</td>
+                        <td>3.3%</td>
+                        <td data-en="For properties with rental income" data-th="สำหรับอสังหาริมทรัพย์ที่มีรายได้จากการเช่า">For properties with rental income</td>
+                    </tr>
+                    <tr>
+                        <td data-en="Common Area Fee (monthly)" data-th="ค่าห้องโถแบบร่วม (รายเดือน)">Common Area Fee</td>
+                        <td>Varies</td>
+                        <td data-en="Usually 30-60 THB per sq.m. per month" data-th="โดยทั่วไป 30-60 บาทต่อตร.ม. ต่อเดือน">Usually 30-60 THB per sq.m. per month</td>
+                    </tr>
+                    <tr>
+                        <td data-en="Sinking Fund (first-time)" data-th="กองทุนอนัตราการจ้าง (ครั้งแรก)">Sinking Fund</td>
+                        <td>5-10%</td>
+                        <td data-en="One-time building maintenance reserve" data-th="สำรองซ่อมแซมอาคารครั้งเดียว">One-time building maintenance reserve</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="tip-box">
+                <strong data-en="Pro Tip:" data-th="เคล็ดลับมืออาชีพ:">Pro Tip:</strong>
+                <p data-en="The common area and sinking fund fees are often negotiable, especially in slower markets or with developers offering move-in incentives. Always ask your agent if these can be waived or reduced." data-th="ค่าห้องโถแบบร่วมและค่าอนัตราการจ้างมักจะต่อรองได้ โดยเฉพาะในตลาดที่ช้าหรือกับนักพัฒนาที่เสนอสิ่งจูงใจในการย้ายเข้า ขอให้ตัวแทนของคุณถามเสมอว่าสามารถยกเว้นหรือลดค่าเหล่านี้ได้หรือไม่">The common area and sinking fund fees are often negotiable, especially in slower markets or with developers offering move-in incentives. Always ask your agent if these can be waived or reduced.</p>
+            </div>
+
+            <!-- SECTION 4: RED FLAGS -->
+            <h2 data-en="Red Flags: What to Avoid" data-th="สัญญาณเตือน: สิ่งที่ต้องหลีกเลี่ยง">Red Flags: What to Avoid</h2>
+
+            <ul>
+                <li data-en="Sellers unable or unwilling to provide Thor Tor 3 form—this is a deal-breaker" data-th="ผู้ขายไม่สามารถหรือไม่เต็มใจให้แบบฟอร์ม Thor Tor 3 ซึ่งเป็นสาเหตุของการทำลายข้อตกลง">Sellers unable or unwilling to provide Thor Tor 3 form—this is a deal-breaker</li>
+                <li data-en="Developers in financial distress or with incomplete projects—research online reviews and financial stability" data-th="นักพัฒนาในสภาวะการเงินที่เดือดร้อนหรือมีโครงการที่ไม่เสร็จสมบูรณ์ ค้นหาข้อมูลรีวิวออนไลน์และเสถียรภาพทางการเงิน">Developers in financial distress or with incomplete projects—research online reviews and financial stability</li>
+                <li data-en="Properties with excessive common area fees (>100 THB/sq.m.) without clear breakdown" data-th="อสังหาริมทรัพย์ที่มีค่าห้องโถแบบร่วมสูงเกินไป (>100 บาท/ตร.ม.) โดยไม่มีรายละเอียดที่ชัดเจน">Properties with excessive common area fees (>100 THB/sq.m.) without clear breakdown</li>
+                <li data-en="Units held by landlords with consistently empty buildings—suggests rental market weakness" data-th="หน่วยที่เจ้าของที่ดินถืออยู่โดยมีอาคารว่างเปล่าอย่างต่อเนื่อง ซึ่งบ่งชี้ถึงจุดอ่อนของตลาดการเช่า">Units held by landlords with consistently empty buildings—suggests rental market weakness</li>
+                <li data-en="Buyers without legal representation—always hire a Thai lawyer independent of the agent or developer" data-th="ผู้ซื้อที่ไม่มีตัวแทนทางกฎหมาย ควรว่าจ้างทนายความไทยเป็นอิสระจากตัวแทนหรือนักพัฒนา">Buyers without legal representation—always hire a Thai lawyer independent of the agent or developer</li>
+            </ul>
+
+            <!-- SECTION 5: BEST AREAS FOR EXPATS 2026 -->
+            <h2 data-en="Best Areas for Expats in 2026" data-th="ทำเลที่เหมาะสำหรับ Expat ประจำปี 2026">Best Areas for Expats in 2026</h2>
+
+            <h3 data-en="1. Sukhumvit (Nana, Phrom Phong, Thonglor)" data-th="1. สุขุมวิท (นานา พร้อมพงษ์ ทองหล่อ)">1. Sukhumvit (Nana, Phrom Phong, Thonglor)</h3>
+            <p data-en="The beating heart of Bangkok expat life. International restaurants, nightlife, shopping, and BTS connectivity make it the most popular choice. Properties here appreciate steadily and rental demand is strong." data-th="หัวใจของชีวิต Expat ในกรุงเทพฯ ร้านอาหารนานาชาติ ชีวิตยามค่ำคืน การช็อปปิ้ง และการเชื่อมต่อ BTS ทำให้เป็นตัวเลือกที่นิยมมากที่สุด อสังหาริมทรัพย์ที่นี่升值อย่างต่อเนื่องและความต้องการการเช่านั้นแข็งแกร่ง">The beating heart of Bangkok expat life. International restaurants, nightlife, shopping, and BTS connectivity make it the most popular choice. Properties here appreciate steadily and rental demand is strong.</p>
+
+            <h3 data-en="2. Thonglor" data-th="2. ทองหล่อ">2. Thonglor</h3>
+            <p data-en="Elevated dining, boutique shopping, and lifestyle amenities attract high-income expats and Thai professionals. Near the BTS and Emporium/EmQuartier malls. Premium pricing, but strong long-term growth." data-th="ร้านอาหารขั้นสูง ร้านค้าบูติก และสิ่งอำนวยความสะดวกในการใช้ชีวิตดึงดูดให้ผู้บริหารรายได้สูงและมืออาชีพไทย ใกล้กับ BTS และห้างสรรพสินค้า Emporium/EmQuartier การกำหนดราคาแบบพรีเมียม แต่มีการเติบโตในระยะยาวที่แข็งแกร่ง">Elevated dining, boutique shopping, and lifestyle amenities attract high-income expats and Thai professionals. Near the BTS and Emporium/EmQuartier malls. Premium pricing, but strong long-term growth.</p>
+
+            <h3 data-en="3. Silom-Sathorn" data-th="3. สีลม-สาทร">3. Silom-Sathorn</h3>
+            <p data-en="Bangkok's financial and business district. Ideal for corporate expats and investors seeking walkability, office proximity, and modern high-rise living. Central location with excellent connectivity." data-th="ย่านการเงินและธุรกิจของกรุงเทพฯ เหมาะสำหรับ Expat ระดับองค์กรและนักลงทุนที่มองหาการเดิน ความใกล้ชิดกับสำนักงาน และการอาศัยอยู่ในอาคารสูงสมัยใหม่ ตำแหน่งกลางพร้อมการเชื่อมต่อที่ยอดเยี่ยม">Bangkok's financial and business district. Ideal for corporate expats and investors seeking walkability, office proximity, and modern high-rise living. Central location with excellent connectivity.</p>
+
+            <h3 data-en="4. Ari" data-th="4. อารีย์">4. Ari</h3>
+            <p data-en="The trendy neighborhood for younger expats. Hipster cafes, street food, local markets, and a creative community vibe. More affordable than Sukhumvit, with emerging growth potential." data-th="ย่านแฟชั่นสำหรับ Expat ที่อายุน้อย ร้านกาแฟฮิปสเตอร์ อาหารข้างถนน ตลาดท้องถิ่น และบรรยากาศชุมชนสร้างสรรค์ราคาไม่แพงกว่าสุขุมวิท พร้อมศักยภาพในการเติบโตที่เกิดใหม่">The trendy neighborhood for younger expats. Hipster cafes, street food, local markets, and a creative community vibe. More affordable than Sukhumvit, with emerging growth potential.</p>
+
+            <h3 data-en="5. Pattaya" data-th="5. พัทยา">5. Pattaya</h3>
+            <p data-en="For retirees and long-term expats seeking lower cost of living, beach proximity, and a relaxed lifestyle. International community is established. More affordable entry prices, but less capital appreciation than Bangkok." data-th="สำหรับผู้เกษียณและ Expat ระยะยาวที่มองหาค่าครองชีพที่ต่ำกว่า ความใกล้ชิดของชายหาด และวิถีชีวิตที่ผ่อนคลาย ชุมชนนานาชาติได้รับการสถาปนาแล้ว ราคาเข้าที่มีราคาไม่แพง แต่มีการเพิ่มมูลค่าทุนน้อยกว่าในกรุงเทพฯ">For retirees and long-term expats seeking lower cost of living, beach proximity, and a relaxed lifestyle. International community is established. More affordable entry prices, but less capital appreciation than Bangkok.</p>
+
+            <!-- CTA SECTION -->
+            <div class="cta-section">
+                <h3 data-en="Ready to Find Your Thai Property?" data-th="พร้อมที่จะหาอสังหาริมทรัพย์ไทยของคุณหรือยัง?">Ready to Find Your Thai Property?</h3>
+                <p data-en="Our team of experts specializes in guiding foreign investors through every step of the purchase process. From property selection to legal documentation, we handle the complexity so you can invest with confidence." data-th="ทีมผู้เชี่ยวชาญของเราเชี่ยวชาญด้านการแนะนำนักลงทุนต่างชาติผ่านทุกขั้นตอนของกระบวนการซื้อ ตั้งแต่การเลือกอสังหาริมทรัพย์ไปจนถึงเอกสารทางกฎหมาย เราจัดการความซับซ้อนเพื่อให้คุณสามารถลงทุนด้วยความมั่นใจ">Our team of experts specializes in guiding foreign investors through every step of the purchase process. From property selection to legal documentation, we handle the complexity so you can invest with confidence.</p>
+                <a href="../index.html#contact" class="btn" data-en="Contact Our Experts" data-th="ติดต่อผู้เชี่ยวชาญของเรา">Contact Our Experts</a>
+            </div>
+        </article>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            <strong data-en="Disclaimer:" data-th="ข้อปฏิเสธความรับผิด:">Disclaimer:</strong>
+            <span data-en="This article is provided for informational purposes only and does not constitute legal or financial advice. Property investment involves risks. Always consult with qualified Thai lawyers and financial advisors before making investment decisions. RamSingh Property Guide and Pa RamSingh are not liable for any losses incurred from reliance on this content." data-th="บทความนี้จัดให้เพื่อวัตถุประสงค์ด้านข้อมูลเท่านั้นและไม่ประกอบเป็นคำแนะนำทางกฎหมายหรือการเงิน การลงทุนในอสังหาริมทรัพย์เกี่ยวข้องกับความเสี่ยง ปรึกษาทนายความไทยและ顾问การเงินที่มีคุณสมบัติเหมาะสมเสมอก่อนตัดสินใจลงทุน RamSingh Property Guide และป๋ารามซิงห์ไม่รับผิดชอบต่อการสูญเสียใด ๆ ที่เกิดจากการพึ่งพาเนื้อหานี้">This article is provided for informational purposes only and does not constitute legal or financial advice. Property investment involves risks. Always consult with qualified Thai lawyers and financial advisors before making investment decisions. RamSingh Property Guide and Pa RamSingh are not liable for any losses incurred from reliance on this content.</span>
+        </p>
+        <p style="margin-top: 20px;">
+            <span data-en="© 2026 RamSingh Property Guide. All rights reserved." data-th="© 2026 RamSingh Property Guide สงวนลิขสิทธิ์">© 2026 RamSingh Property Guide. All rights reserved.</span>
+        </p>
+    </footer>
+
+    <!-- LANGUAGE SWITCHING SCRIPT -->
+    <script>
+        // Set language function
+        function setLang(lang) {
+            // Update button active state
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Get all elements with data attributes
+            const elements = document.querySelectorAll('[data-en][data-th]');
+
+            elements.forEach(el => {
+                if (lang === 'en') {
+                    el.textContent = el.getAttribute('data-en');
+                } else if (lang === 'th') {
+                    el.textContent = el.getAttribute('data-th');
+                }
+            });
+
+            // Update HTML lang attribute
+            document.documentElement.lang = lang;
+
+            // Store preference
+            localStorage.setItem('preferred-lang', lang);
+        }
+
+        // Load saved language preference on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('preferred-lang') || 'en';
+
+            // Update button active state
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if ((savedLang === 'en' && btn.textContent === 'EN') ||
+                    (savedLang === 'th' && (btn.textContent === 'TH' || btn.textContent === 'ไทย'))) {
+                    btn.classList.add('active');
+                }
+            });
+
+            // Apply language if not English (default)
+            if (savedLang === 'th') {
+                setLang('th');
+            }
+        });
+    </script>
+</body>
+</html>

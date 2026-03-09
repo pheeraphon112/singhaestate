@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-th="ทำเลไหนน่าลงทุนที่สุดในปี 2026" data-en="Best Investment Areas in 2026">Best Investment Areas in 2026</title>
+    <meta name="description" content="Comprehensive guide to Thailand's best investment areas in 2026 - comparing yield vs capital gains.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --gold: #C9A84C;
+            --gold-light: #E2CC8B;
+            --gold-muted: #A68B3C;
+            --dark: #1C1C1C;
+            --darker: #121212;
+            --charcoal: #2A2A2A;
+            --cream: #F5F0E8;
+            --white: #FAFAF8;
+            --text: #D4D0C8;
+            --text-muted: #8A8578;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--darker);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(18, 18, 18, 0.92);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        nav .logo img {
+            height: 36px;
+            width: auto;
+        }
+
+        nav .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            list-style: none;
+        }
+
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
+        }
+
+        nav a:hover {
+            color: var(--gold);
+        }
+
+        .lang-toggle {
+            display: flex;
+            gap: 0.5rem;
+            margin-left: 1rem;
+        }
+
+        .lang-btn {
+            background: rgba(201, 168, 76, 0.1);
+            border: 1px solid rgba(201, 168, 76, 0.2);
+            color: var(--text-muted);
+            padding: 0.4rem 0.8rem;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .lang-btn.active {
+            background: var(--gold);
+            color: var(--darker);
+            border-color: var(--gold);
+        }
+
+        /* Main Content */
+        main {
+            margin-top: 70px;
+            padding-bottom: 4rem;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, rgba(201, 168, 76, 0.05) 0%, rgba(201, 168, 76, 0.02) 100%);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero-category {
+            display: inline-block;
+            background: rgba(201, 168, 76, 0.12);
+            color: var(--gold-light);
+            padding: 0.5rem 1rem;
+            border-radius: 2px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.5rem;
+            color: var(--gold);
+            margin-bottom: 2rem;
+            line-height: 1.2;
+        }
+
+        .hero-author {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .hero-author img {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid rgba(201, 168, 76, 0.3);
+        }
+
+        .hero-author-info {
+            text-align: left;
+        }
+
+        .hero-author-info strong {
+            color: var(--gold);
+            display: block;
+            font-weight: 600;
+        }
+
+        /* Article Content */
+        article {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        article h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2rem;
+            color: var(--gold);
+            margin: 3rem 0 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        article h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            color: var(--gold-light);
+            margin: 2rem 0 1rem;
+        }
+
+        article p {
+            margin-bottom: 1rem;
+            color: var(--text);
+            line-height: 1.8;
+        }
+
+        article ul {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        article li {
+            margin-bottom: 0.8rem;
+            color: var(--text);
+            line-height: 1.8;
+        }
+
+        article li strong {
+            color: var(--gold-light);
+        }
+
+        /* Area Cards */
+        .area-card {
+            background: rgba(201, 168, 76, 0.04);
+            border: 1px solid rgba(201, 168, 76, 0.1);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            transition: all 0.3s;
+        }
+
+        .area-card:hover {
+            border-color: rgba(201, 168, 76, 0.3);
+            background: rgba(201, 168, 76, 0.06);
+        }
+
+        .area-card h4 {
+            font-family: 'Cormorant Garamond', serif;
+            color: var(--gold);
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .area-card .stat {
+            display: inline-block;
+            background: rgba(201, 168, 76, 0.12);
+            padding: 0.3rem 0.9rem;
+            border-radius: 2px;
+            font-size: 0.8rem;
+            color: var(--gold-light);
+            margin-right: 0.6rem;
+            margin-bottom: 0.6rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+
+        .area-card p {
+            margin-top: 1rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Warning Box */
+        .warning-box {
+            background: rgba(201, 168, 76, 0.08);
+            border-left: 4px solid var(--gold);
+            border-radius: 4px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-top: 1px solid rgba(201, 168, 76, 0.2);
+            border-right: 1px solid rgba(201, 168, 76, 0.2);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.2);
+        }
+
+        .warning-box h3 {
+            color: var(--gold);
+            margin-top: 0;
+        }
+
+        .warning-box ul {
+            margin-left: 1.5rem;
+        }
+
+        .warning-box li {
+            color: var(--text);
+            margin-bottom: 0.7rem;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--darker);
+            padding: 0.9rem 2rem;
+            border-radius: 2px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
+            transition: all 0.3s;
+            border: 2px solid var(--gold);
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: transparent;
+            color: var(--gold);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--gold);
+            border: 2px solid var(--gold);
+        }
+
+        .btn-secondary:hover {
+            background: var(--gold);
+            color: var(--darker);
+        }
+
+        /* Back Link */
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--gold);
+            text-decoration: none;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: var(--gold-light);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, rgba(201, 168, 76, 0.08) 0%, rgba(201, 168, 76, 0.04) 100%);
+            border: 1px solid rgba(201, 168, 76, 0.15);
+            border-radius: 8px;
+            padding: 2.5rem;
+            margin: 3rem 0;
+            text-align: center;
+        }
+
+        .cta-section h3 {
+            margin-top: 0;
+        }
+
+        .cta-section p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--darker);
+            border-top: 1px solid rgba(201, 168, 76, 0.1);
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        footer .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .disclaimer {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        .footer-divider {
+            height: 1px;
+            background: rgba(201, 168, 76, 0.1);
+            margin: 2rem 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav .container {
+                flex-direction: column;
+                height: auto;
+                padding: 1rem 1.5rem;
+            }
+
+            nav .nav-links {
+                gap: 1rem;
+                margin-top: 1rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            article h2 {
+                font-size: 1.8rem;
+            }
+
+            .hero-author {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .hero-author-info {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="container">
+        <div class="logo">
+            <picture>
+                <source srcset="../assets/img/logo/logo-horizontal-dark.webp" type="image/webp">
+                <img src="../assets/img/logo/logo-horizontal-dark.png" alt="RamSingh Property Guide" style="height:36px">
+            </picture>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html" data-th="หน้าแรก" data-en="Home">Home</a></li>
+            <li><a href="../index.html" data-th="โครงการ" data-en="Projects">Projects</a></li>
+            <li><a href="../index.html" data-th="บทความ" data-en="Insights">Insights</a></li>
+            <li><a href="../index.html#contact" data-th="ติดต่อ" data-en="Contact">Contact</a></li>
+            <li class="lang-toggle">
+                <button class="lang-btn active" id="btn-en" onclick="setLang('en')" data-th="English" data-en="EN">EN</button>
+                <button class="lang-btn" id="btn-th" onclick="setLang('th')" data-th="ไทย" data-en="TH">TH</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-category" data-th="📊 การลงทุน" data-en="📊 Investment">📊 Investment</div>
+            <h1 data-th="ทำเลไหนน่าลงทุนที่สุดในปี 2026" data-en="Best Investment Areas in 2026">Best Investment Areas in 2026</h1>
+
+            <div class="hero-author">
+                <img src="../assets/img/character/suit/ramsingh-avatar.webp" alt="Pa RamSingh">
+                <div class="hero-author-info">
+                    <strong data-th="โดย ป๋ารามซิงห์" data-en="By Pa RamSingh">By Pa RamSingh</strong>
+                    <span data-th="RamSingh Property Guide · มีนาคม 2026" data-en="RamSingh Property Guide · March 2026">RamSingh Property Guide · March 2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Article -->
+    <article>
+        <a href="../index.html" class="back-link" data-th="← กลับไปยังบทความ" data-en="← Back to Articles">← Back to Articles</a>
+
+        <!-- Introduction -->
+        <p data-th="การลงทุนในอสังหาริมทรัพย์ที่ประเทศไทยต้องใช้ความเข้าใจที่ลึกซึ้งในการเลือกทำเล การศึกษา และการบริหารความเสี่ยง ในปี 2566 มีการเปลี่ยนแปลงที่สำคัญในตลาด โดยการพิจารณาว่าคุณต้องการรายได้จากการให้เช่า (Yield) หรือการขึ้นมูลค่า (Capital Gain) จึงเป็นสิ่งที่จำเป็นต่อการตัดสินใจลงทุน" data-en="Real estate investment in Thailand requires deep understanding of location selection, market research, and risk management. In 2026, significant changes shape the market. Determining whether you seek rental income (Yield) or property appreciation (Capital Gain) is essential to your investment decision.">Real estate investment in Thailand requires deep understanding of location selection, market research, and risk management. In 2026, significant changes shape the market. Determining whether you seek rental income (Yield) or property appreciation (Capital Gain) is essential to your investment decision.</p>
+
+        <!-- Yield vs Capital Gain Section -->
+        <h2 data-th="Yield vs Capital Gain" data-en="Yield vs Capital Gain">Yield vs Capital Gain</h2>
+
+        <h3 data-th="Rental Yield - รายได้จากการให้เช่า" data-en="Rental Yield - Income from Rentals">Rental Yield - Income from Rentals</h3>
+        <p data-th="Rental Yield คือรายได้ที่ได้รับประจำปีจากการให้เช่าทรัพย์สินหารด้วยราคาลงทุนเริ่มแรม Yield 5% หมายถึงว่าถ้าคุณลงทุน 2 ล้านบาท คุณจะได้รายได้จากการให้เช่า 100,000 บาทต่อปี" data-en="Rental Yield is the annual rental income divided by the initial investment price. A 5% yield means if you invest 2 million baht, you earn 100,000 baht annually from rentals.">Rental Yield is the annual rental income divided by the initial investment price. A 5% yield means if you invest 2 million baht, you earn 100,000 baht annually from rentals.</p>
+        <ul>
+            <li data-th="<strong>ข้อดี:</strong> รายได้ที่เสถียรและสม่ำเสมอ เหมาะสำหรับนักลงทุนที่ต้องการเงินสดไหลเข้าปกติ" data-en="<strong>Pros:</strong> Stable, consistent income ideal for investors needing regular cash flow"><strong data-th="ข้อดี:" data-en="Pros:">Pros:</strong> <span data-th="รายได้ที่เสถียรและสม่ำเสมอ เหมาะสำหรับนักลงทุนที่ต้องการเงินสดไหลเข้าปกติ" data-en="Stable, consistent income ideal for investors needing regular cash flow">Stable, consistent income ideal for investors needing regular cash flow</span></li>
+            <li data-th="<strong>ข้อจำกัด:</strong> Yield ต่อกว่า Capital Gain เมื่อตลาดเติบโตแบบแข็งแรง" data-en="<strong>Cons:</strong> Lower returns than capital gains in strong growing markets"><strong data-th="ข้อจำกัด:" data-en="Cons:">Cons:</strong> <span data-th="Yield ต่อกว่า Capital Gain เมื่อตลาดเติบโตแบบแข็งแรง" data-en="Lower returns than capital gains in strong growing markets">Lower returns than capital gains in strong growing markets</span></li>
+            <li data-th="<strong>เหมาะสำหรับ:</strong> นักลงทุนที่ต้องการ Passive Income ระยะยาว" data-en="<strong>Best for:</strong> Investors seeking long-term passive income"><strong data-th="เหมาะสำหรับ:" data-en="Best for:">Best for:</strong> <span data-th="นักลงทุนที่ต้องการ Passive Income ระยะยาว" data-en="Investors seeking long-term passive income">Investors seeking long-term passive income</span></li>
+        </ul>
+
+        <h3 data-th="Capital Gain - การขึ้นมูลค่า" data-en="Capital Gain - Property Appreciation">Capital Gain - Property Appreciation</h3>
+        <p data-th="Capital Gain คือผลกำไรจากการขายทรัพย์สินในราคาที่สูงกว่าราคาซื้อเดิม ถ้าคุณซื้อที่ราคา 2 ล้านบาท และขายได้ 2.5 ล้านบาท Capital Gain คือ 500,000 บาท หรือ 25% กำไร" data-en="Capital Gain is profit from selling a property above its initial purchase price. Buy at 2 million baht, sell at 2.5 million baht = 500,000 baht (25%) capital gain.">Capital Gain is profit from selling a property above its initial purchase price. Buy at 2 million baht, sell at 2.5 million baht = 500,000 baht (25%) capital gain.</p>
+        <ul>
+            <li data-th="<strong>ข้อดี:</strong> กำไรสูงได้ในระยะสั้นถึงปานกลาง เหมาะสำหรับตลาดที่กำลังเติบโต" data-en="<strong>Pros:</strong> High returns in emerging growth markets, shorter timeframe"><strong data-th="ข้อดี:" data-en="Pros:">Pros:</strong> <span data-th="กำไรสูงได้ในระยะสั้นถึงปานกลาง เหมาะสำหรับตลาดที่กำลังเติบโต" data-en="High returns in emerging growth markets, shorter timeframe">High returns in emerging growth markets, shorter timeframe</span></li>
+            <li data-th="<strong>ข้อจำกัด:</strong> ไม่มีรายได้คงที่ ต้องขายเพื่อรับผลกำไร ตลาดสามารถเปลี่ยนแปลงได้" data-en="<strong>Cons:</strong> No regular income, must sell to realize gains, market dependent"><strong data-th="ข้อจำกัด:" data-en="Cons:">Cons:</strong> <span data-th="ไม่มีรายได้คงที่ ต้องขายเพื่อรับผลกำไร ตลาดสามารถเปลี่ยนแปลงได้" data-en="No regular income, must sell to realize gains, market dependent">No regular income, must sell to realize gains, market dependent</span></li>
+            <li data-th="<strong>เหมาะสำหรับ:</strong> นักลงทุนที่ต้องการกำไรแบบลูกค้าใหญ่ และสามารถรอได้ 3-5 ปี" data-en="<strong>Best for:</strong> Investors seeking substantial returns with 3-5 year horizon"><strong data-th="เหมาะสำหรับ:" data-en="Best for:">Best for:</strong> <span data-th="นักลงทุนที่ต้องการกำไรแบบลูกค้าใหญ่ และสามารถรอได้ 3-5 ปี" data-en="Investors seeking substantial returns with 3-5 year horizon">Investors seeking substantial returns with 3-5 year horizon</span></li>
+        </ul>
+
+        <!-- High Yield Areas Section -->
+        <h2 data-th="ทำเล Yield สูง" data-en="High Yield Areas">High Yield Areas</h2>
+        <p data-th="ทำเลเหล่านี้ให้ Rental Yield สูง เหมาะสำหรับนักลงทุนที่ต้องการรายได้ประจำจากการให้เช่า" data-en="These locations offer strong rental yields, ideal for investors seeking consistent rental income.">These locations offer strong rental yields, ideal for investors seeking consistent rental income.</p>
+
+        <div class="area-card">
+            <h4 data-th="Sukhumvit Soi 21-39 (Asok-Phrom Phong)" data-en="Sukhumvit Soi 21-39 (Asok-Phrom Phong)">Sukhumvit Soi 21-39 (Asok-Phrom Phong)</h4>
+            <span class="stat" data-th="Yield 5-6%" data-en="Yield 5-6%">Yield 5-6%</span>
+            <span class="stat" data-th="ราคา 120K-200K/m²" data-en="Price 120K-200K/m²">Price 120K-200K/m²</span>
+            <span class="stat" data-th="เช่า 18K-35K (1BR)" data-en="Rent 18K-35K (1BR)">Rent 18K-35K (1BR)</span>
+            <p data-th="พื้นที่สำเร็จรูปสำนักงานที่มีการจราจรสูง มีความต้องการจากมนุษย์ต่างชาติและพนักงานสำนักงาน ตัวอาคารพักใจ ซอยที่สภาพดี อยู่ใกล้กับ BTS Asok และ Phrom Phong" data-en="Established business district with high traffic, strong demand from expats and office workers. Proximity to BTS Asok and Phrom Phong. Highly competitive rental market.">Established business district with high traffic, strong demand from expats and office workers. Proximity to BTS Asok and Phrom Phong. Highly competitive rental market.</p>
+        </div>
+
+        <div class="area-card">
+            <h4 data-th="Silom-Sathorn" data-en="Silom-Sathorn">Silom-Sathorn</h4>
+            <span class="stat" data-th="Yield 4.5-5.5%" data-en="Yield 4.5-5.5%">Yield 4.5-5.5%</span>
+            <span class="stat" data-th="ราคา 100K-180K/m²" data-en="Price 100K-180K/m²">Price 100K-180K/m²</span>
+            <span class="stat" data-th="ผู้เช่าหลากหลาย" data-en="Diverse Tenants">Diverse Tenants</span>
+            <p data-th="ศูนย์ธุรกิจดั้งเดิม มีคุณสมบัติตั้งแต่อพาร์ตเมนต์โมดเดิน ไปจนถึงคอนโด Luxury มีผู้เช่ามากมาย ทั้งนักธุรกิจและนักท่องเที่ยว" data-en="Traditional business center with diverse property types from modern apartments to luxury condos. Strong tenant base of business professionals and tourists. Established infrastructure.">Traditional business center with diverse property types from modern apartments to luxury condos. Strong tenant base of business professionals and tourists. Established infrastructure.</p>
+        </div>
+
+        <div class="area-card">
+            <h4 data-th="Pattaya-Jomtien" data-en="Pattaya-Jomtien">Pattaya-Jomtien</h4>
+            <span class="stat" data-th="Yield 6-8%" data-en="Yield 6-8%">Yield 6-8%</span>
+            <span class="stat" data-th="ราคา 50K-80K/m²" data-en="Price 50K-80K/m²">Price 50K-80K/m²</span>
+            <span class="stat" data-th="Short-term Rental" data-en="Short-term Rental">Short-term Rental</span>
+            <p data-th="Yield สูงสุดเนื่องจากมีสถานท่องเที่ยว มีผู้ท่องเที่ยวสูง Airbnb และการให้เช่าขาดเด้ือนต่างวัน นอกจากนี้ยังมีต้นทุนต่ำกว่าสุก และดุมวิทอื่นๆ เหมาะสำหรับนักลงทุนมือใหม่" data-en="Highest yields due to tourism demand. Short-term rental via Airbnb and vacation rentals. Lower property costs than Bangkok central areas. Ideal for investors seeking premium yields. Tourist seasonality to consider.">Highest yields due to tourism demand. Short-term rental via Airbnb and vacation rentals. Lower property costs than Bangkok central areas. Ideal for investors seeking premium yields. Tourist seasonality to consider.</p>
+        </div>
+
+        <!-- High Capital Gain Areas Section -->
+        <h2 data-th="ทำเล Capital Gain สูง" data-en="High Capital Gain Areas">High Capital Gain Areas</h2>
+        <p data-th="ทำเลเหล่านี้ให้ Capital Gain สูง เหมาะสำหรับนักลงทุนที่ต้องการกำไรจากการขึ้นมูลค่า ภายใน 3-5 ปี" data-en="These locations offer strong capital appreciation, ideal for investors seeking property value growth over 3-5 years.">These locations offer strong capital appreciation, ideal for investors seeking property value growth over 3-5 years.</p>
+
+        <div class="area-card">
+            <h4 data-th="Ratchada-Rama 9-MRT Orange Line" data-en="Ratchada-Rama 9-MRT Orange Line">Ratchada-Rama 9-MRT Orange Line</h4>
+            <span class="stat" data-th="CG 15-25% / 3ปี" data-en="CG 15-25% / 3yr">CG 15-25% / 3yr</span>
+            <span class="stat" data-th="ราคา 80K-120K/m²" data-en="Price 80K-120K/m²">Price 80K-120K/m²</span>
+            <span class="stat" data-th="ข้อมูลประเทศกำลังเติบโต" data-en="Emerging Growth">Emerging Growth</span>
+            <p data-th="พื้นที่ใหม่ที่กำลังพัฒนาอย่างรวดเร็ว สถานีรถไฟใต้ดิน (Orange Line) เชื่อมโยงสถานที่ต่างๆ ร้านค้า สำนักงาน และสิ่งอำนวยความสะดวกต่างๆ กำลังเพิ่มขึ้น อาจอยู่ภายนอกเดิมจึงมีราคาต่ำกว่า แต่กำลังเติบโต" data-en="Rapidly developing emerging area with new MRT Orange Line connectivity. Infrastructure expanding with new retail, offices, and amenities. Lower current prices with high growth potential. Strong developer activity.">Rapidly developing emerging area with new MRT Orange Line connectivity. Infrastructure expanding with new retail, offices, and amenities. Lower current prices with high growth potential. Strong developer activity.</p>
+        </div>
+
+        <div class="area-card">
+            <h4 data-th="Bangna-Samut Prakan" data-en="Bangna-Samut Prakan">Bangna-Samut Prakan</h4>
+            <span class="stat" data-th="CG 20-30% / 3-5ปี" data-en="CG 20-30% / 3-5yr">CG 20-30% / 3-5yr</span>
+            <span class="stat" data-th="ราคา 50K-80K/m²" data-en="Price 50K-80K/m²">Price 50K-80K/m²</span>
+            <span class="stat" data-th="คุณค่าต่ำที่สุด" data-en="Most Affordable">Most Affordable</span>
+            <p data-th="พื้นที่ชนบทที่กำลังแปลงเป็นพื้นที่สำเร็จรูป มีสนามบินใหม่ สถานีรถไฟเส้นใหม่ และศูนย์การค้าใหญ่ กำลังสร้าง ราคาต่ำที่สุด แต่มีศักยภาพการเติบโตสูง" data-en="Semi-rural area transitioning to developed zone. New airport expansion, high-speed rail, major shopping centers under construction. Most affordable prices with exceptional growth potential over 3-5 years.">Semi-rural area transitioning to developed zone. New airport expansion, high-speed rail, major shopping centers under construction. Most affordable prices with exceptional growth potential over 3-5 years.</p>
+        </div>
+
+        <div class="area-card">
+            <h4 data-th="Ari-Saphan Kwai" data-en="Ari-Saphan Kwai">Ari-Saphan Kwai</h4>
+            <span class="stat" data-th="CG 10-15% / 2-3ปี" data-en="CG 10-15% / 2-3yr">CG 10-15% / 2-3yr</span>
+            <span class="stat" data-th="ราคา 100K-150K/m²" data-en="Price 100K-150K/m²">Price 100K-150K/m²</span>
+            <span class="stat" data-th="กลับมาดิน" data-en="Urban Revival">Urban Revival</span>
+            <p data-th="พื้นที่เก่าที่กำลังได้รับการปรับปรุง BTS Saphan Kwai ใกล้ๆ และมีแผนโครงสร้างพื้นฐานใหม่มากมาย โค้งของการพิสูจน์ในการลงทุนมิดเซกเตอร์ที่ดี" data-en="Urban renewal area near BTS Saphan Kwai. Multiple infrastructure improvements planned. Mid-range investment with steady appreciation. Good mid-cycle investment opportunity.">Urban renewal area near BTS Saphan Kwai. Multiple infrastructure improvements planned. Mid-range investment with steady appreciation. Good mid-cycle investment opportunity.</p>
+        </div>
+
+        <!-- Sweet Spot Section -->
+        <h2 data-th="Sweet Spot" data-en="Sweet Spot">Sweet Spot</h2>
+        <p data-th="หากคุณต้องการความสมดุลระหว่าง Yield และ Capital Gain คำแนะนำของป๋ารามซิงห์ คือ ลงทุนใน Ratchada-Rama 9-MRT Orange Line" data-en="If you seek balance between yield and capital gains, Pa RamSingh recommends investing in Ratchada-Rama 9-MRT Orange Line areas.">If you seek balance between yield and capital gains, Pa RamSingh recommends investing in Ratchada-Rama 9-MRT Orange Line areas.</p>
+
+        <div class="area-card">
+            <h4 data-th="🎯 Ratchada-Rama 9: ทำไมเป็น Sweet Spot?" data-en="🎯 Ratchada-Rama 9: Why the Sweet Spot?">🎯 Ratchada-Rama 9: Why the Sweet Spot?</h4>
+            <p data-th="<strong>1. Capital Gain ที่โน้มนำ</strong> - ราคาต่ำกว่าสุกุมวิทและสีลมในอยู่ตอนนี้ แต่มีศักยภาพการเติบโต 15-25% ในช่วง 3 ปี" data-en="<strong>1. Attractive Capital Gains</strong> - Lower current prices than Sukhumvit/Silom but 15-25% growth potential in 3 years"><strong data-th="1. Capital Gain ที่โน้มนำ" data-en="1. Attractive Capital Gains">1. Attractive Capital Gains</strong> - <span data-th="ราคาต่ำกว่าสุกุมวิทและสีลมในอยู่ตอนนี้ แต่มีศักยภาพการเติบโต 15-25% ในช่วง 3 ปี" data-en="Lower current prices than Sukhumvit/Silom but 15-25% growth potential in 3 years">Lower current prices than Sukhumvit/Silom but 15-25% growth potential in 3 years</span></p>
+            <p data-th="<strong>2. Yield ที่ยังคง</strong> - เนื่องจากราคาเริ่มต้นต่ำ Yield เพื่อให้เช่าคือ 5-6% ซึ่งเป็นมาตรฐานตลาด" data-en="<strong>2. Respectable Yield</strong> - Lower entry prices provide 5-6% rental yields, market standard"><strong data-th="2. Yield ที่ยังคง" data-en="2. Respectable Yield">2. Respectable Yield</strong> - <span data-th="เนื่องจากราคาเริ่มต้นต่ำ Yield เพื่อให้เช่าคือ 5-6% ซึ่งเป็นมาตรฐานตลาด" data-en="Lower entry prices provide 5-6% rental yields, market standard">Lower entry prices provide 5-6% rental yields, market standard</span></p>
+            <p data-th="<strong>3. โครงสร้างพื้นฐานที่นิยม</strong> - MRT Orange Line ให้การเข้าถึงพื้นที่อื่นๆ เช่น ทำนายการเพิ่มขึ้นของผู้อพยพ" data-en="<strong>3. Infrastructure Appeal</strong> - MRT Orange Line ensures excellent accessibility and attracts future residents/workers"><strong data-th="3. โครงสร้างพื้นฐานที่นิยม" data-en="3. Infrastructure Appeal">3. Infrastructure Appeal</strong> - <span data-th="MRT Orange Line ให้การเข้าถึงพื้นที่อื่นๆ เช่น ทำนายการเพิ่มขึ้นของผู้อพยพ" data-en="MRT Orange Line ensures excellent accessibility and attracts future residents/workers">MRT Orange Line ensures excellent accessibility and attracts future residents/workers</span></p>
+            <p data-th="<strong>4. ความน่าเชื่อถือในการพัฒนา</strong> - นักพัฒนาที่มีชื่อเสียง เช่น Sansiri, AP, และ Ananda ล้วน มีโครงการอยู่ในพื้นที่นี้" data-en="<strong>4. Developer Credibility</strong> - Reputable developers like Sansiri, AP, and Ananda have projects here"><strong data-th="4. ความน่าเชื่อถือในการพัฒนา" data-en="4. Developer Credibility">4. Developer Credibility</strong> - <span data-th="นักพัฒนาที่มีชื่อเสียง เช่น Sansiri, AP, และ Ananda ล้วน มีโครงการอยู่ในพื้นที่นี้" data-en="Reputable developers like Sansiri, AP, and Ananda have projects here">Reputable developers like Sansiri, AP, and Ananda have projects here</span></p>
+        </div>
+
+        <!-- Warnings Section -->
+        <h2 data-th="สิ่งที่ต้องระวัง" data-en="Important Warnings">Important Warnings</h2>
+
+        <div class="warning-box">
+            <h3 data-th="⚠️ ข้อควรระวังสำคัญ" data-en="⚠️ Key Cautions">⚠️ Key Cautions</h3>
+            <ul>
+                <li data-th="<strong>การอ้างสิทธิ์ Yield ของนักพัฒนา:</strong> หลายนักพัฒนาอ้างสิทธิ์ Yield 8-10% ซึ่งฟัง เหยื่อ หากมีตัวอักษร ต้องตรวจสอบความเป็นจริง โดยดูประวัติการจ่ายเช่าจริงของโครงการอื่นๆ" data-en="<strong>Developer Yield Claims:</strong> Many developers claim 8-10% yields. Verify with actual rental data from completed similar projects, not projections."><strong data-th="การอ้างสิทธิ์ Yield ของนักพัฒนา:" data-en="Developer Yield Claims:">Developer Yield Claims:</strong> <span data-th="หลายนักพัฒนาอ้างสิทธิ์ Yield 8-10% ซึ่งฟัง เหยื่อ หากมีตัวอักษร ต้องตรวจสอบความเป็นจริง โดยดูประวัติการจ่ายเช่าจริงของโครงการอื่นๆ" data-en="Many developers claim 8-10% yields. Verify with actual rental data from completed similar projects, not projections.">Many developers claim 8-10% yields. Verify with actual rental data from completed similar projects, not projections.</span></li>
+                <li data-th="<strong>Oversupply ท้องถิ่น:</strong> บางพื้นที่เช่น Rama 9, Sukhumvit มีอพาร์ตเมนต์ใหม่มากเกินไป นำไปสู่การแข่งขันด้านราคาเช่า และลดผลกำไร" data-en="<strong>Local Oversupply:</strong> Areas like Rama 9 and some Sukhumvit zones have excessive new supply, leading to rental competition and margin pressure."><strong data-th="Oversupply ท้องถิ่น:" data-en="Local Oversupply:">Local Oversupply:</strong> <span data-th="บางพื้นที่เช่น Rama 9, Sukhumvit มีอพาร์ตเมนต์ใหม่มากเกินไป นำไปสู่การแข่งขันด้านราคาเช่า และลดผลกำไร" data-en="Areas like Rama 9 and some Sukhumvit zones have excessive new supply, leading to rental competition and margin pressure.">Areas like Rama 9 and some Sukhumvit zones have excessive new supply, leading to rental competition and margin pressure.</span></li>
+                <li data-th="<strong>ค่าใช้สอยแฝง:</strong> ค่าสมาชิก การจัดการ การซ่อมแซม และค่าคอนโดยูนิตสามารถกิน 30-40% ของรายได้เช่า ตรวจสอบให้ดี" data-en="<strong>Hidden Expenses:</strong> Common fees, management, maintenance, and condo fees can consume 30-40% of rental income. Review carefully."><strong data-th="ค่าใช้สอยแฝง:" data-en="Hidden Expenses:">Hidden Expenses:</strong> <span data-th="ค่าสมาชิก การจัดการ การซ่อมแซม และค่าคอนโดยูนิตสามารถกิน 30-40% ของรายได้เช่า ตรวจสอบให้ดี" data-en="Common fees, management, maintenance, and condo fees can consume 30-40% of rental income. Review carefully.">Common fees, management, maintenance, and condo fees can consume 30-40% of rental income. Review carefully.</span></li>
+                <li data-th="<strong>ภาษีและการประเมินค่า:</strong> ภาษีที่ได้รับ (อยู่ที่ 5-15%) และการประเมินค่าด้านมูลค่า (0.02-0.1%) จะส่งผลต่อผลกำไรสุดท้าย ควรอยู่ในงบประมาณ" data-en="<strong>Taxes & Valuation:</strong> Income tax (5-15%) and property revaluation tax (0.02-0.1%) impact net returns. Factor into projections."><strong data-th="ภาษีและการประเมินค่า:" data-en="Taxes & Valuation:">Taxes & Valuation:</strong> <span data-th="ภาษีที่ได้รับ (อยู่ที่ 5-15%) และการประเมินค่าด้านมูลค่า (0.02-0.1%) จะส่งผลต่อผลกำไรสุดท้าย ควรอยู่ในงบประมาณ" data-en="Income tax (5-15%) and property revaluation tax (0.02-0.1%) impact net returns. Factor into projections.">Income tax (5-15%) and property revaluation tax (0.02-0.1%) impact net returns. Factor into projections.</span></li>
+            </ul>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h3 data-th="พร้อมที่จะลงทุนอย่างชาญฉลาดแล้วหรือ?" data-en="Ready to Invest Wisely?">Ready to Invest Wisely?</h3>
+            <p data-th="ทีมของ RamSingh Property Guide พร้อมที่จะช่วยคุณสำรวจพื้นที่เหล่านี้และค้นหาทรัพย์สินที่ตรงกับเป้าหมายการลงทุนของคุณ" data-en="RamSingh Property Guide's team is ready to help you explore these areas and find properties that match your investment goals.">RamSingh Property Guide's team is ready to help you explore these areas and find properties that match your investment goals.</p>
+            <a href="../index.html#contact" class="btn" data-th="ติดต่อทีมของเรา" data-en="Contact Our Team">Contact Our Team</a>
+        </div>
+
+    </article>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-divider"></div>
+        <p class="disclaimer" data-th="ปฏิเสธความรับผิดชอบ: บทความนี้จัดทำขึ้นเพื่อวัตถุประสงค์ด้านการศึกษาและข้อมูลเท่านั้น ไม่ใช่ข้อมูลทางการเงินหรือการลงทุนที่เฉพาะเจาะจง ราคา Yield และการคาดการณ์อาจเปลี่ยนแปลง ควรปรึกษาที่ปรึกษาการลงทุนอิสระก่อนตัดสินใจลงทุน" data-en="Disclaimer: This article is for educational and informational purposes only, not specific financial or investment advice. Prices, yields, and projections may change. Consult an independent investment advisor before making investment decisions.">Disclaimer: This article is for educational and informational purposes only, not specific financial or investment advice. Prices, yields, and projections may change. Consult an independent investment advisor before making investment decisions.</p>
+        <div class="footer-divider"></div>
+        <p data-th="© 2566 RamSingh Property Guide. สงวนลิขสิทธิ์" data-en="© 2026 RamSingh Property Guide. All rights reserved.">© 2026 RamSingh Property Guide. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Language Toggle Script -->
+<script>
+    // Initialize language from localStorage or default to English
+    function initLang() {
+        const savedLang = localStorage.getItem('lang') || 'en';
+        setLang(savedLang);
+    }
+
+    // Set language and update all data-th and data-en elements
+    function setLang(lang) {
+        localStorage.setItem('lang', lang);
+
+        // Update document language
+        document.documentElement.lang = lang;
+
+        // Update all elements with data-th and data-en
+        document.querySelectorAll('[data-th][data-en]').forEach(el => {
+            if (lang === 'th') {
+                // For elements with HTML content (like <li> with <strong>), use innerHTML
+                if (el.tagName === 'LI' && el.innerHTML.includes('<strong>')) {
+                    el.innerHTML = el.getAttribute('data-th');
+                } else {
+                    el.textContent = el.getAttribute('data-th');
+                }
+            } else {
+                // For elements with HTML content, use innerHTML
+                if (el.tagName === 'LI' && el.getAttribute('data-en').includes('<strong>')) {
+                    el.innerHTML = el.getAttribute('data-en');
+                } else {
+                    el.textContent = el.getAttribute('data-en');
+                }
+            }
+        });
+
+        // Fallback for complex HTML elements (warning box, etc)
+        document.querySelectorAll('[data-th]').forEach(el => {
+            if (!el.hasAttribute('data-en')) {
+                // Only Thai content
+                if (lang === 'th') {
+                    el.innerHTML = el.getAttribute('data-th');
+                }
+            }
+        });
+
+        // Update button states
+        document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+        document.getElementById('btn-th').classList.toggle('active', lang === 'th');
+
+        // Update title
+        const titleEl = document.querySelector('title');
+        if (lang === 'th') {
+            titleEl.textContent = titleEl.getAttribute('data-th');
+        } else {
+            titleEl.textContent = titleEl.getAttribute('data-en');
+        }
+    }
+
+    // Initialize on page load
+    window.addEventListener('DOMContentLoaded', initLang);
+</script>
+
+</body>
+</html>
